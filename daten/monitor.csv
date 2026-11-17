@@ -1,0 +1,71 @@
+id;bezeichnung;bestand;standort;zoll;aufloesung;anschluss
+1;"Dell P2422H";6;"Raum 105";24;1920x1080;HDMI+DisplayPort
+2;"HP E24 G5";3;Aula;24;1920x1080;HDMI+DisplayPort
+3;"Samsung S24R350";4;"Raum 102";24;1920x1080;HDMI+VGA
+4;"LG 24MK430H";1;"Raum 205";24;1920x1080;HDMI+VGA
+5;"BenQ GW2480";8;Chemieraum;24;1920x1080;HDMI+VGA+DisplayPort
+6;"iiyama ProLite XUB2493HS";4;"Raum 105";24;1920x1080;HDMI+DisplayPort
+7;"Eizo FlexScan EV2360";12;Medienraum;23;1920x1200;HDMI+DisplayPort
+8;"Philips 243V7QDSB";1;"Raum 201";24;1920x1080;HDMI+VGA+DVI
+9;"Dell U2723QE";2;"Raum 201";27;3840x2160;HDMI+DisplayPort+USB-C
+10;"AOC 22B2H";1;Bibliothek;22;1920x1080;HDMI+VGA
+11;"Dell P2422H";1;Werkstatt;24;1920x1080;HDMI+DisplayPort
+12;"HP E24 G5";1;Foyer;24;1920x1080;HDMI+DisplayPort
+13;"Samsung S24R350";1;"Raum 201";24;1920x1080;HDMI+VGA
+14;"LG 24MK430H";2;Lehrerzimmer;24;1920x1080;HDMI+VGA
+15;"BenQ GW2480";2;Werkstatt;24;1920x1080;HDMI+VGA+DisplayPort
+16;"iiyama ProLite XUB2493HS";2;Konferenzraum;24;1920x1080;HDMI+DisplayPort
+17;"Eizo FlexScan EV2360";12;"Lager Nord";23;1920x1200;HDMI+DisplayPort
+18;"Philips 243V7QDSB";12;Aula;24;1920x1080;HDMI+VGA+DVI
+19;"Dell U2723QE";3;Werkstatt;27;3840x2160;HDMI+DisplayPort+USB-C
+20;"AOC 22B2H";8;"Lager Nord";22;1920x1080;HDMI+VGA
+21;"Dell P2422H";8;"Raum 202";24;1920x1080;HDMI+DisplayPort
+22;"HP E24 G5";2;Mensa;24;1920x1080;HDMI+DisplayPort
+23;"Samsung S24R350";4;"Raum 203";24;1920x1080;HDMI+VGA
+24;"LG 24MK430H";12;Chemieraum;24;1920x1080;HDMI+VGA
+25;"BenQ GW2480";8;Medienraum;24;1920x1080;HDMI+VGA+DisplayPort
+26;"iiyama ProLite XUB2493HS";8;Sekretariat;24;1920x1080;HDMI+DisplayPort
+27;"Eizo FlexScan EV2360";8;Musikraum;23;1920x1200;HDMI+DisplayPort
+28;"Philips 243V7QDSB";12;Sporthalle;24;1920x1080;HDMI+VGA+DVI
+29;"Dell U2723QE";2;Konferenzraum;27;3840x2160;HDMI+DisplayPort+USB-C
+30;"AOC 22B2H";1;"Raum 105";22;1920x1080;HDMI+VGA
+31;"Dell P2422H";1;Medienraum;24;1920x1080;HDMI+DisplayPort
+32;"HP E24 G5";2;Werkstatt;24;1920x1080;HDMI+DisplayPort
+33;"Samsung S24R350";1;"Raum 105";24;1920x1080;HDMI+VGA
+34;"LG 24MK430H";2;Konferenzraum;24;1920x1080;HDMI+VGA
+35;"BenQ GW2480";8;"Raum 105";24;1920x1080;HDMI+VGA+DisplayPort
+36;"iiyama ProLite XUB2493HS";6;"Raum 103";24;1920x1080;HDMI+DisplayPort
+37;"Eizo FlexScan EV2360";3;Werkstatt;23;1920x1200;HDMI+DisplayPort
+38;"Philips 243V7QDSB";6;Werkstatt;24;1920x1080;HDMI+VGA+DVI
+39;"Dell U2723QE";1;Chemieraum;27;3840x2160;HDMI+DisplayPort+USB-C
+40;"AOC 22B2H";2;"Raum 204 (Informatik)";22;1920x1080;HDMI+VGA
+41;"Dell P2422H";1;Bibliothek;24;1920x1080;HDMI+DisplayPort
+42;"HP E24 G5";8;"Raum 101";24;1920x1080;HDMI+DisplayPort
+43;"Samsung S24R350";1;Konferenzraum;24;1920x1080;HDMI+VGA
+44;"LG 24MK430H";3;Medienraum;24;1920x1080;HDMI+VGA
+45;"BenQ GW2480";1;"Raum 105";24;1920x1080;HDMI+VGA+DisplayPort
+46;"iiyama ProLite XUB2493HS";2;Werkstatt;24;1920x1080;HDMI+DisplayPort
+47;"Eizo FlexScan EV2360";6;Bibliothek;23;1920x1200;HDMI+DisplayPort
+48;"Philips 243V7QDSB";3;Sekretariat;24;1920x1080;HDMI+VGA+DVI
+49;"Dell U2723QE";2;"Raum 105";27;3840x2160;HDMI+DisplayPort+USB-C
+50;"AOC 22B2H";1;"Raum 204 (Informatik)";22;1920x1080;HDMI+VGA
+51;"Dell P2422H";2;Medienraum;24;1920x1080;HDMI+DisplayPort
+52;"HP E24 G5";2;Aula;24;1920x1080;HDMI+DisplayPort
+53;"Samsung S24R350";12;"Lager Nord";24;1920x1080;HDMI+VGA
+54;"LG 24MK430H";2;"Raum 104";24;1920x1080;HDMI+VGA
+55;"BenQ GW2480";1;"Raum 205";24;1920x1080;HDMI+VGA+DisplayPort
+56;"iiyama ProLite XUB2493HS";3;Foyer;24;1920x1080;HDMI+DisplayPort
+57;"Eizo FlexScan EV2360";1;"Raum 103";23;1920x1200;HDMI+DisplayPort
+58;"Philips 243V7QDSB";3;Konferenzraum;24;1920x1080;HDMI+VGA+DVI
+59;"Dell U2723QE";1;"Raum 101";27;3840x2160;HDMI+DisplayPort+USB-C
+60;"AOC 22B2H";1;"Raum 204 (Informatik)";22;1920x1080;HDMI+VGA
+61;"Dell P2422H";1;"Raum 104";24;1920x1080;HDMI+DisplayPort
+62;"HP E24 G5";2;Lehrerzimmer;24;1920x1080;HDMI+DisplayPort
+63;"Samsung S24R350";8;"Raum 205";24;1920x1080;HDMI+VGA
+64;"LG 24MK430H";6;"Lager Nord";24;1920x1080;HDMI+VGA
+65;"BenQ GW2480";8;"Lager Nord";24;1920x1080;HDMI+VGA+DisplayPort
+66;"iiyama ProLite XUB2493HS";12;"Raum 202";24;1920x1080;HDMI+DisplayPort
+67;"Eizo FlexScan EV2360";6;Sekretariat;23;1920x1200;HDMI+DisplayPort
+68;"Philips 243V7QDSB";12;Sekretariat;24;1920x1080;HDMI+VGA+DVI
+69;"Dell U2723QE";2;"Raum 204 (Informatik)";27;3840x2160;HDMI+DisplayPort+USB-C
+70;"AOC 22B2H";6;Chemieraum;22;1920x1080;HDMI+VGA

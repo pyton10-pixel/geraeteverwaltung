@@ -300,7 +300,7 @@ function gruppeLoeschen($gruppen, $id) {
 
     unset($gruppen[$index]);
     $gruppen = array_values($gruppen);   // Positionen neu durchnummerieren (IDs bleiben gleich)
-    echo "Gruppe gelöscht. Die Datei " . $gruppe["datei"] . " wird beim nächsten Speichern entfernt.\n";
+    echo "Gruppe gelöscht. Die Löschung wird beim nächsten Speichern dauerhaft.\n";
     return $gruppen;
 }
 
@@ -318,13 +318,21 @@ function geraeteKopf($gruppe) {
     return $kopf;
 }
 
+// Zusatzwert als Text: eine Liste (z. B. mehrere Seriennummern aus JSON) wird mit Komma verbunden
+function wertAlsText($wert) {
+    if (is_array($wert)) {
+        return implode(", ", $wert);
+    }
+    return $wert;
+}
+
 function zeigeGeraet($gruppe, $geraet) {
     echo "ID " . $geraet["id"] . ": " . $geraet["bezeichnung"] . "\n";
     echo "   bestand: " . $geraet["bestand"] . "\n";
     echo "   standort: " . $geraet["standort"] . "\n";
     // Die Feldnamen kommen aus der Gruppendefinition, nicht aus dem Programmcode
     foreach ($gruppe["felder"] as $feld) {
-        echo "   $feld: " . $geraet[$feld] . "\n";
+        echo "   $feld: " . wertAlsText($geraet[$feld]) . "\n";
     }
 }
 
@@ -415,7 +423,7 @@ function geraetBearbeiten($gruppe, $id) {
     }
 
     foreach ($gruppe["felder"] as $feld) {
-        $text = eingabe("$feld [" . $geraet[$feld] . "]: ");
+        $text = eingabe("$feld [" . wertAlsText($geraet[$feld]) . "]: ");
         if ($text === "-") {
             $geraet[$feld] = "";
         } elseif ($text !== "") {

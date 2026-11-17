@@ -1,10 +1,12 @@
 <?php
-// verwaltung.php – Geräteverwaltung als PHP-Konsolenanwendung mit CSV-Speicherung
+// verwaltung.php – Geräteverwaltung als PHP-Konsolenanwendung mit JSON-Speicherung
 // Start: php verwaltung.php
 
 require __DIR__ . "/funktionen.php";
+require __DIR__ . "/json.php";
 
-$ordner = __DIR__ . "/daten";
+$ordner = __DIR__ . "/daten";                      // Quelle für den CSV-Import
+$jsonPfad = $ordner . "/geraeteverwaltung.json";   // normaler Speicherort
 
 
 // Untermenü Gerätegruppen. Rückgabe: aktualisierte Gruppenliste
@@ -95,19 +97,18 @@ function geraeteMenue($gruppe) {
 
 
 // ============================================================
-// Programmstart: gespeicherten Stand laden
+// Programmstart: gespeicherten Stand aus JSON laden
 // ============================================================
 
 zeigeUeberschrift("Geräteverwaltung");
 
-$gruppen = ladeAlles($ordner);
+$gruppen = ladeJson($jsonPfad);
 if ($gruppen === false) {
-    // Nicht mit leerer Verwaltung weitermachen – sonst könnte ein Speichern die Dateien überschreiben
-    exit("Start abgebrochen. Bitte die CSV-Dateien im Ordner daten prüfen.\n");
+    // Nicht mit leerer Verwaltung weitermachen – sonst könnte ein Speichern die Datei überschreiben
+    exit("Start abgebrochen. Bitte die Datei " . basename($jsonPfad) . " prüfen.\n");
 }
 echo count($gruppen) . " Gruppe(n) geladen.\n";
 
-$bekannteDateien = dateienDerGruppen($gruppen);   // für das Entfernen gelöschter Gruppen-Dateien
 $geaendert = false;
 $laeuft = true;
 
@@ -116,10 +117,11 @@ while ($laeuft) {
     if ($geaendert) {
         echo "(ungespeicherte Änderungen)\n";
     }
-    echo "1 Gerätegruppen verwalten\n";
-    echo "2 Geräte einer Gruppe verwalten\n";
-    echo "3 Alles speichern\n";
-    echo "4 Gespeicherten Stand neu laden\n";
+    echo "1 Gruppen verwalten\n";
+    echo "2 Geräte verwalten\n";
+    echo "3 JSON speichern\n";
+    echo "4 JSON neu laden\n";
+    echo "5 CSV-Daten importieren\n";
     echo "0 Beenden\n";
 
     switch (eingabe("Auswahl: ")) {
@@ -157,13 +159,11 @@ while ($laeuft) {
             break;
 
         case "3":
-            if (speichereAlles($ordner, $gruppen, $bekannteDateien)) {
-                echo "Alles gespeichert.\n";
+            if (speichereJson($jsonPfad, $gruppen)) {
+                echo "Gespeichert in " . basename($jsonPfad) . ".\n";
                 $geaendert = false;
-                $bekannteDateien = dateienDerGruppen($gruppen);
             } else {
-                echo "Speichern war NICHT vollständig erfolgreich!\n";
-                $bekannteDateien = array_unique(array_merge($bekannteDateien, dateienDerGruppen($gruppen)));
+                echo "Speichern war NICHT erfolgreich! Die bisherige Datei ist unverändert.\n";
             }
             break;
 
@@ -171,14 +171,34 @@ while ($laeuft) {
             if ($geaendert && bestaetigen("Ungespeicherte Änderungen gehen verloren. Trotzdem neu laden?") === false) {
                 break;
             }
-            $neu = ladeAlles($ordner);
+            $neu = ladeJson($jsonPfad);
             if ($neu === false) {
                 echo "Neu laden fehlgeschlagen. Der bisherige Stand im Arbeitsspeicher bleibt erhalten.\n";
             } else {
                 $gruppen = $neu;
-                $bekannteDateien = dateienDerGruppen($gruppen);
                 $geaendert = false;
                 echo count($gruppen) . " Gruppe(n) neu geladen.\n";
+            }
+            break;
+
+        case "5":
+            echo "Der CSV-Import liest geraetegruppen.csv und die Gerätedateien im Ordner daten.\n";
+            echo "Die aktuelle Liste wird dabei vollständig ERSETZT, nicht zusammengeführt.\n";
+            echo "Die CSV-Dateien werden nur gelesen. Dauerhaft wird der Import erst mit 'JSON speichern'.\n";
+            if ($geaendert) {
+                echo "Achtung: Deine ungespeicherten Änderungen gehen dabei verloren.\n";
+            }
+            if (bestaetigen("CSV-Daten importieren?") === false) {
+                echo "Import abgebrochen. Die bisherigen Daten bleiben erhalten.\n";
+                break;
+            }
+            $neu = importiereCsv($ordner);
+            if ($neu === false) {
+                echo "Import fehlgeschlagen. Die bisherigen Daten bleiben erhalten.\n";
+            } else {
+                $gruppen = $neu;
+                $geaendert = true;   // Import ist zunächst nur ein ungespeicherter Arbeitsstand
+                echo count($gruppen) . " Gruppe(n) importiert (noch nicht gespeichert).\n";
             }
             break;
 
@@ -193,8 +213,8 @@ while ($laeuft) {
             echo "0 Abbrechen (zurück zum Menü)\n";
             $antwort = eingabe("Auswahl: ");
             if ($antwort === "1") {
-                if (speichereAlles($ordner, $gruppen, $bekannteDateien)) {
-                    echo "Alles gespeichert.\n";
+                if (speichereJson($jsonPfad, $gruppen)) {
+                    echo "Gespeichert in " . basename($jsonPfad) . ".\n";
                     $laeuft = false;
                 } else {
                     echo "Speichern fehlgeschlagen. Das Programm läuft weiter.\n";

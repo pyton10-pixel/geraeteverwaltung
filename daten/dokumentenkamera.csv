@@ -1,0 +1,33 @@
+id;bezeichnung;bestand;standort;aufloesung;anschluss;optischer_zoom
+1;"AVerVision F50";2;Medienraum;1920x1080;HDMI+USB;8x
+2;"AVerVision M70";1;Konferenzraum;1920x1080;HDMI+USB;16x
+3;"Elmo MX-1";1;Musikraum;3840x2160;HDMI+USB;16x
+4;"Elmo TT-12";1;"Raum 201";1920x1080;HDMI+VGA;12x
+5;"Epson DC-13";1;Chemieraum;1920x1080;HDMI+USB;10x
+6;"Lumens DC125";2;Konferenzraum;1920x1080;HDMI+VGA;12x
+7;"IPEVO VZ-R";1;"Raum 201";1920x1080;USB;8x
+8;"WolfVision VZ-3neo";2;"Raum 101";1920x1080;HDMI+USB;4x
+9;"AVerVision F50";1;"Raum 202";1920x1080;HDMI+USB;8x
+10;"AVerVision M70";1;"Lager Nord";1920x1080;HDMI+USB;16x
+11;"Elmo MX-1";2;"Raum 201";3840x2160;HDMI+USB;16x
+12;"Elmo TT-12";3;"Raum 101";1920x1080;HDMI+VGA;12x
+13;"Epson DC-13";3;Musikraum;1920x1080;HDMI+USB;10x
+14;"Lumens DC125";1;"Raum 101";1920x1080;HDMI+VGA;12x
+15;"IPEVO VZ-R";1;"Raum 101";1920x1080;USB;8x
+16;"WolfVision VZ-3neo";1;Chemieraum;1920x1080;HDMI+USB;4x
+17;"AVerVision F50";1;"Lager Nord";1920x1080;HDMI+USB;8x
+18;"AVerVision M70";2;"Raum 103";1920x1080;HDMI+USB;16x
+19;"Elmo MX-1";1;Sporthalle;3840x2160;HDMI+USB;16x
+20;"Elmo TT-12";1;Aula;1920x1080;HDMI+VGA;12x
+21;"Epson DC-13";1;"Raum 101";1920x1080;HDMI+USB;10x
+22;"Lumens DC125";1;Foyer;1920x1080;HDMI+VGA;12x
+23;"IPEVO VZ-R";2;"Lager Nord";1920x1080;USB;8x
+24;"WolfVision VZ-3neo";1;"Raum 101";1920x1080;HDMI+USB;4x
+25;"AVerVision F50";2;"Lager Nord";1920x1080;HDMI+USB;8x
+26;"AVerVision M70";1;"Raum 201";1920x1080;HDMI+USB;16x
+27;"Elmo MX-1";2;"Raum 102";3840x2160;HDMI+USB;16x
+28;"Elmo TT-12";1;"Raum 202";1920x1080;HDMI+VGA;12x
+29;"Epson DC-13";1;"Raum 104";1920x1080;HDMI+USB;10x
+30;"Lumens DC125";2;Foyer;1920x1080;HDMI+VGA;12x
+31;"IPEVO VZ-R";1;"Raum 102";1920x1080;USB;8x
+32;"WolfVision VZ-3neo";2;"Raum 101";1920x1080;HDMI+USB;4x

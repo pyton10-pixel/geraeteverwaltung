@@ -1,0 +1,46 @@
+id;bezeichnung;bestand;standort;standard;frequenz;poe
+1;"Ubiquiti UniFi U6-LR";1;Aula;"Wi-Fi 6";"2,4/5 GHz";ja
+2;"Aruba AP-505";1;Serverraum;"Wi-Fi 6";"2,4/5 GHz";ja
+3;"Cisco Meraki MR36";1;"Netzwerkschrank Gebäude A";"Wi-Fi 6";"2,4/5 GHz";ja
+4;"TP-Link EAP245";1;"Netzwerkschrank Gebäude B";"Wi-Fi 5";"2,4/5 GHz";ja
+5;"Netgear WAX214";2;"Raum 204 (Informatik)";"Wi-Fi 6";"2,4/5 GHz";ja
+6;"Zyxel NWA110AX";1;Serverraum;"Wi-Fi 6";"2,4/5 GHz";ja
+7;"Ruckus R350";1;Aula;"Wi-Fi 6";"2,4/5 GHz";ja
+8;"Ubiquiti UniFi U6-Pro";1;"Lager Nord";"Wi-Fi 6";"2,4/5 GHz";ja
+9;"TP-Link EAP225";1;"Raum 204 (Informatik)";"Wi-Fi 5";"2,4/5 GHz";ja
+10;"Ubiquiti UniFi U6-LR";1;"Netzwerkschrank Gebäude B";"Wi-Fi 6";"2,4/5 GHz";ja
+11;"Aruba AP-505";2;Serverraum;"Wi-Fi 6";"2,4/5 GHz";ja
+12;"Cisco Meraki MR36";1;Verwaltungsflur;"Wi-Fi 6";"2,4/5 GHz";ja
+13;"TP-Link EAP245";1;"Netzwerkschrank Gebäude B";"Wi-Fi 5";"2,4/5 GHz";ja
+14;"Netgear WAX214";1;Verwaltungsflur;"Wi-Fi 6";"2,4/5 GHz";ja
+15;"Zyxel NWA110AX";1;"Lager Nord";"Wi-Fi 6";"2,4/5 GHz";ja
+16;"Ruckus R350";1;"Lager Nord";"Wi-Fi 6";"2,4/5 GHz";ja
+17;"Ubiquiti UniFi U6-Pro";2;"Netzwerkschrank Gebäude C";"Wi-Fi 6";"2,4/5 GHz";ja
+18;"TP-Link EAP225";1;"Raum 204 (Informatik)";"Wi-Fi 5";"2,4/5 GHz";ja
+19;"Ubiquiti UniFi U6-LR";1;"Netzwerkschrank Gebäude C";"Wi-Fi 6";"2,4/5 GHz";ja
+20;"Aruba AP-505";2;"Netzwerkschrank Gebäude A";"Wi-Fi 6";"2,4/5 GHz";ja
+21;"Cisco Meraki MR36";2;Serverraum;"Wi-Fi 6";"2,4/5 GHz";ja
+22;"TP-Link EAP245";1;Serverraum;"Wi-Fi 5";"2,4/5 GHz";ja
+23;"Netgear WAX214";2;"Netzwerkschrank Gebäude B";"Wi-Fi 6";"2,4/5 GHz";ja
+24;"Zyxel NWA110AX";1;Aula;"Wi-Fi 6";"2,4/5 GHz";ja
+25;"Ruckus R350";2;Aula;"Wi-Fi 6";"2,4/5 GHz";ja
+26;"Ubiquiti UniFi U6-Pro";1;"Raum 204 (Informatik)";"Wi-Fi 6";"2,4/5 GHz";ja
+27;"TP-Link EAP225";2;Serverraum;"Wi-Fi 5";"2,4/5 GHz";ja
+28;"Ubiquiti UniFi U6-LR";1;"Netzwerkschrank Gebäude A";"Wi-Fi 6";"2,4/5 GHz";ja
+29;"Aruba AP-505";1;"Lager Nord";"Wi-Fi 6";"2,4/5 GHz";ja
+30;"Cisco Meraki MR36";2;Aula;"Wi-Fi 6";"2,4/5 GHz";ja
+31;"TP-Link EAP245";1;Serverraum;"Wi-Fi 5";"2,4/5 GHz";ja
+32;"Netgear WAX214";1;Aula;"Wi-Fi 6";"2,4/5 GHz";ja
+33;"Zyxel NWA110AX";2;"Netzwerkschrank Gebäude A";"Wi-Fi 6";"2,4/5 GHz";ja
+34;"Ruckus R350";1;Serverraum;"Wi-Fi 6";"2,4/5 GHz";ja
+35;"Ubiquiti UniFi U6-Pro";1;"Netzwerkschrank Gebäude B";"Wi-Fi 6";"2,4/5 GHz";ja
+36;"TP-Link EAP225";1;Serverraum;"Wi-Fi 5";"2,4/5 GHz";ja
+37;"Ubiquiti UniFi U6-LR";1;"Netzwerkschrank Gebäude C";"Wi-Fi 6";"2,4/5 GHz";ja
+38;"Aruba AP-505";1;Serverraum;"Wi-Fi 6";"2,4/5 GHz";ja
+39;"Cisco Meraki MR36";1;"Netzwerkschrank Gebäude B";"Wi-Fi 6";"2,4/5 GHz";ja
+40;"TP-Link EAP245";2;Verwaltungsflur;"Wi-Fi 5";"2,4/5 GHz";ja
+41;"Netgear WAX214";1;Aula;"Wi-Fi 6";"2,4/5 GHz";ja
+42;"Zyxel NWA110AX";1;"Lager Nord";"Wi-Fi 6";"2,4/5 GHz";ja
+43;"Ruckus R350";1;"Netzwerkschrank Gebäude C";"Wi-Fi 6";"2,4/5 GHz";ja
+44;"Ubiquiti UniFi U6-Pro";1;"Raum 204 (Informatik)";"Wi-Fi 6";"2,4/5 GHz";ja
+45;"TP-Link EAP225";1;"Netzwerkschrank Gebäude B";"Wi-Fi 5";"2,4/5 GHz";ja

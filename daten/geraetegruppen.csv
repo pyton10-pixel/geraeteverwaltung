@@ -1,3 +1,11 @@
 id;name;datei;extra1;extra2;extra3
 1;Notebook;notebook.csv;seriennummer;ram;prozessor
 2;Beamer;beamer.csv;aufloesung;anschluss;lichtleistung
+3;Desktop-PC;desktop_pc.csv;seriennummer;ram;prozessor
+4;Monitor;monitor.csv;zoll;aufloesung;anschluss
+5;Drucker;drucker.csv;drucktechnik;papierformat;anschluss
+6;Tablet;tablet.csv;seriennummer;betriebssystem;speicher
+7;Dokumentenkamera;dokumentenkamera.csv;aufloesung;anschluss;optischer_zoom
+8;"Interaktives Display";interaktives_display.csv;zoll;aufloesung;anschluss
+9;Netzwerk-Switch;netzwerk_switch.csv;portanzahl;geschwindigkeit;verwaltet
+10;WLAN-Accesspoint;wlan_accesspoint.csv;standard;frequenz;poe

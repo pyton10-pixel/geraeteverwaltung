@@ -1,0 +1,35 @@
+id;bezeichnung;bestand;standort;portanzahl;geschwindigkeit;verwaltet
+1;"Cisco Catalyst 9200-24T";1;"Raum 204 (Informatik)";24;"1 Gbit/s";ja
+2;"HPE Aruba 2530-24G";2;Verwaltungsflur;24;"1 Gbit/s";ja
+3;"Netgear GS724T";1;"Netzwerkschrank Gebäude A";24;"1 Gbit/s";ja
+4;"TP-Link TL-SG1024";2;"Lager Nord";24;"1 Gbit/s";nein
+5;"D-Link DGS-1210-24";2;"Lager Nord";24;"1 Gbit/s";ja
+6;"Ubiquiti UniFi Switch 24";1;"Netzwerkschrank Gebäude B";24;"1 Gbit/s";ja
+7;"Zyxel GS1900-24E";2;Serverraum;24;"1 Gbit/s";ja
+8;"MikroTik CRS326-24G";2;"Lager Nord";24;"1 Gbit/s";ja
+9;"Cisco Catalyst 1000-48T";1;"Netzwerkschrank Gebäude B";48;"1 Gbit/s";ja
+10;"Cisco Catalyst 9200-24T";2;Serverraum;24;"1 Gbit/s";ja
+11;"HPE Aruba 2530-24G";1;"Netzwerkschrank Gebäude A";24;"1 Gbit/s";ja
+12;"Netgear GS724T";1;"Raum 204 (Informatik)";24;"1 Gbit/s";ja
+13;"TP-Link TL-SG1024";2;"Netzwerkschrank Gebäude B";24;"1 Gbit/s";nein
+14;"D-Link DGS-1210-24";1;"Netzwerkschrank Gebäude C";24;"1 Gbit/s";ja
+15;"Ubiquiti UniFi Switch 24";1;"Netzwerkschrank Gebäude C";24;"1 Gbit/s";ja
+16;"Zyxel GS1900-24E";2;Aula;24;"1 Gbit/s";ja
+17;"MikroTik CRS326-24G";1;Verwaltungsflur;24;"1 Gbit/s";ja
+18;"Cisco Catalyst 1000-48T";2;"Lager Nord";48;"1 Gbit/s";ja
+19;"Cisco Catalyst 9200-24T";1;"Lager Nord";24;"1 Gbit/s";ja
+20;"HPE Aruba 2530-24G";2;"Netzwerkschrank Gebäude A";24;"1 Gbit/s";ja
+21;"Netgear GS724T";2;Aula;24;"1 Gbit/s";ja
+22;"TP-Link TL-SG1024";1;"Lager Nord";24;"1 Gbit/s";nein
+23;"D-Link DGS-1210-24";1;Aula;24;"1 Gbit/s";ja
+24;"Ubiquiti UniFi Switch 24";1;"Netzwerkschrank Gebäude B";24;"1 Gbit/s";ja
+25;"Zyxel GS1900-24E";2;"Netzwerkschrank Gebäude C";24;"1 Gbit/s";ja
+26;"MikroTik CRS326-24G";1;"Raum 204 (Informatik)";24;"1 Gbit/s";ja
+27;"Cisco Catalyst 1000-48T";1;"Netzwerkschrank Gebäude C";48;"1 Gbit/s";ja
+28;"Cisco Catalyst 9200-24T";1;"Netzwerkschrank Gebäude B";24;"1 Gbit/s";ja
+29;"HPE Aruba 2530-24G";1;"Netzwerkschrank Gebäude C";24;"1 Gbit/s";ja
+30;"Netgear GS724T";1;"Netzwerkschrank Gebäude B";24;"1 Gbit/s";ja
+31;"TP-Link TL-SG1024";1;Aula;24;"1 Gbit/s";nein
+32;"D-Link DGS-1210-24";2;"Netzwerkschrank Gebäude A";24;"1 Gbit/s";ja
+33;"Ubiquiti UniFi Switch 24";1;"Netzwerkschrank Gebäude B";24;"1 Gbit/s";ja
+34;"Zyxel GS1900-24E";2;"Netzwerkschrank Gebäude A";24;"1 Gbit/s";ja

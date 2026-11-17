@@ -1,0 +1,36 @@
+id;bezeichnung;bestand;standort;drucktechnik;papierformat;anschluss
+1;"HP LaserJet Pro M404dn";1;"Raum 204 (Informatik)";Laser;A4;LAN+USB
+2;"Brother HL-L2350DW";1;Lehrerzimmer;Laser;A4;WLAN+USB
+3;"Kyocera ECOSYS P2040dn";1;Bibliothek;Laser;A4;LAN+USB
+4;"Canon i-SENSYS LBP223dw";1;Bibliothek;Laser;A4;WLAN+USB
+5;"Epson WorkForce Pro WF-C5790";1;"Raum 102";Tintenstrahl;A3;LAN+WLAN
+6;"Ricoh SP 230DNw";2;Verwaltungsflur;Laser;A4;LAN+WLAN
+7;"Xerox VersaLink B400";1;Aula;Laser;A4;LAN+USB
+8;"Lexmark MS431dn";2;"Raum 102";Laser;A4;LAN+USB
+9;"Brother MFC-L3770CDW";2;"Raum 101";Laser;A4;LAN+WLAN+USB
+10;"HP Color LaserJet Pro M479fdw";1;"Raum 101";Laser;A4;LAN+WLAN
+11;"HP LaserJet Pro M404dn";1;"Raum 102";Laser;A4;LAN+USB
+12;"Brother HL-L2350DW";1;"Raum 101";Laser;A4;WLAN+USB
+13;"Kyocera ECOSYS P2040dn";1;"Raum 101";Laser;A4;LAN+USB
+14;"Canon i-SENSYS LBP223dw";1;Verwaltungsflur;Laser;A4;WLAN+USB
+15;"Epson WorkForce Pro WF-C5790";2;Lehrerzimmer;Tintenstrahl;A3;LAN+WLAN
+16;"Ricoh SP 230DNw";2;"Raum 101";Laser;A4;LAN+WLAN
+17;"Xerox VersaLink B400";1;Bibliothek;Laser;A4;LAN+USB
+18;"Lexmark MS431dn";1;Sekretariat;Laser;A4;LAN+USB
+19;"Brother MFC-L3770CDW";1;"Raum 201";Laser;A4;LAN+WLAN+USB
+20;"HP Color LaserJet Pro M479fdw";3;Verwaltungsflur;Laser;A4;LAN+WLAN
+21;"HP LaserJet Pro M404dn";2;Lehrerzimmer;Laser;A4;LAN+USB
+22;"Brother HL-L2350DW";1;Aula;Laser;A4;WLAN+USB
+23;"Kyocera ECOSYS P2040dn";2;Sekretariat;Laser;A4;LAN+USB
+24;"Canon i-SENSYS LBP223dw";3;"Raum 102";Laser;A4;WLAN+USB
+25;"Epson WorkForce Pro WF-C5790";1;"Raum 102";Tintenstrahl;A3;LAN+WLAN
+26;"Ricoh SP 230DNw";1;Sekretariat;Laser;A4;LAN+WLAN
+27;"Xerox VersaLink B400";3;"Raum 102";Laser;A4;LAN+USB
+28;"Lexmark MS431dn";1;Verwaltungsflur;Laser;A4;LAN+USB
+29;"Brother MFC-L3770CDW";1;Lehrerzimmer;Laser;A4;LAN+WLAN+USB
+30;"HP Color LaserJet Pro M479fdw";3;"Raum 204 (Informatik)";Laser;A4;LAN+WLAN
+31;"HP LaserJet Pro M404dn";2;"Raum 102";Laser;A4;LAN+USB
+32;"Brother HL-L2350DW";1;"Lager Nord";Laser;A4;WLAN+USB
+33;"Kyocera ECOSYS P2040dn";2;"Raum 102";Laser;A4;LAN+USB
+34;"Canon i-SENSYS LBP223dw";1;Verwaltungsflur;Laser;A4;WLAN+USB
+35;"Epson WorkForce Pro WF-C5790";1;Bibliothek;Tintenstrahl;A3;LAN+WLAN

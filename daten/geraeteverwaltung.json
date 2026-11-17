@@ -1,0 +1,4409 @@
+{
+    "schema_version": 1,
+    "gruppen": [
+        {
+            "id": 1,
+            "name": "Notebook",
+            "datei": "notebook.csv",
+            "felder": [
+                "seriennummer",
+                "ram",
+                "prozessor"
+            ],
+            "geraete": [
+                {
+                    "id": 1,
+                    "bezeichnung": "ThinkPad T14",
+                    "bestand": 1,
+                    "standort": "Raum 101",
+                    "seriennummer": "NB-001",
+                    "ram": "16 GB",
+                    "prozessor": "Ryzen 5"
+                },
+                {
+                    "id": 2,
+                    "bezeichnung": "Schulungsnotebook",
+                    "bestand": 4,
+                    "standort": "Raum 102",
+                    "seriennummer": "",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5"
+                },
+                {
+                    "id": 3,
+                    "bezeichnung": "ThinkPad T14 Gen 3",
+                    "bestand": 1,
+                    "standort": "Foyer",
+                    "seriennummer": "NB-101",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-1240P"
+                },
+                {
+                    "id": 4,
+                    "bezeichnung": "ThinkPad L15 Gen 3",
+                    "bestand": 2,
+                    "standort": "Raum 104",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Ryzen 5 5625U"
+                },
+                {
+                    "id": 5,
+                    "bezeichnung": "ThinkPad E14 Gen 4",
+                    "bestand": 1,
+                    "standort": "Raum 104",
+                    "seriennummer": "NB-102",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5-1235U"
+                },
+                {
+                    "id": 6,
+                    "bezeichnung": "Dell Latitude 5430",
+                    "bestand": 3,
+                    "standort": "Raum 202",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-1235U"
+                },
+                {
+                    "id": 7,
+                    "bezeichnung": "Dell Latitude 3330",
+                    "bestand": 1,
+                    "standort": "Raum 204 (Informatik)",
+                    "seriennummer": "NB-103",
+                    "ram": "8 GB",
+                    "prozessor": "Core i3-1115G4"
+                },
+                {
+                    "id": 8,
+                    "bezeichnung": "HP ProBook 450 G9",
+                    "bestand": 2,
+                    "standort": "Lehrerzimmer",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-1235U"
+                },
+                {
+                    "id": 9,
+                    "bezeichnung": "HP EliteBook 840 G9",
+                    "bestand": 4,
+                    "standort": "Raum 105",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i7-1255U"
+                },
+                {
+                    "id": 10,
+                    "bezeichnung": "Fujitsu Lifebook E5511",
+                    "bestand": 2,
+                    "standort": "Raum 202",
+                    "seriennummer": "",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5-1135G7"
+                },
+                {
+                    "id": 11,
+                    "bezeichnung": "Acer TravelMate P2",
+                    "bestand": 3,
+                    "standort": "Lehrerzimmer",
+                    "seriennummer": "",
+                    "ram": "8 GB",
+                    "prozessor": "Ryzen 5 5500U"
+                },
+                {
+                    "id": 12,
+                    "bezeichnung": "Lenovo V15 G3",
+                    "bestand": 1,
+                    "standort": "Raum 204 (Informatik)",
+                    "seriennummer": "NB-104",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5-1235U"
+                },
+                {
+                    "id": 13,
+                    "bezeichnung": "Apple MacBook Air M1",
+                    "bestand": 15,
+                    "standort": "Medienraum",
+                    "seriennummer": "",
+                    "ram": "8 GB",
+                    "prozessor": "Apple M1"
+                },
+                {
+                    "id": 14,
+                    "bezeichnung": "Schulungsnotebook",
+                    "bestand": 1,
+                    "standort": "Lehrerzimmer",
+                    "seriennummer": "NB-105",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5"
+                },
+                {
+                    "id": 15,
+                    "bezeichnung": "ThinkPad T14 Gen 3",
+                    "bestand": 1,
+                    "standort": "Bibliothek",
+                    "seriennummer": "NB-106",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-1240P"
+                },
+                {
+                    "id": 16,
+                    "bezeichnung": "ThinkPad L15 Gen 3",
+                    "bestand": 2,
+                    "standort": "Aula",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Ryzen 5 5625U"
+                },
+                {
+                    "id": 17,
+                    "bezeichnung": "ThinkPad E14 Gen 4",
+                    "bestand": 3,
+                    "standort": "Musikraum",
+                    "seriennummer": "",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5-1235U"
+                },
+                {
+                    "id": 18,
+                    "bezeichnung": "Dell Latitude 5430",
+                    "bestand": 2,
+                    "standort": "Lager Nord",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-1235U"
+                },
+                {
+                    "id": 19,
+                    "bezeichnung": "Dell Latitude 3330",
+                    "bestand": 1,
+                    "standort": "Sporthalle",
+                    "seriennummer": "NB-107",
+                    "ram": "8 GB",
+                    "prozessor": "Core i3-1115G4"
+                },
+                {
+                    "id": 20,
+                    "bezeichnung": "HP ProBook 450 G9",
+                    "bestand": 4,
+                    "standort": "Raum 202",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-1235U"
+                },
+                {
+                    "id": 21,
+                    "bezeichnung": "HP EliteBook 840 G9",
+                    "bestand": 1,
+                    "standort": "Raum 101",
+                    "seriennummer": "NB-108",
+                    "ram": "16 GB",
+                    "prozessor": "Core i7-1255U"
+                },
+                {
+                    "id": 22,
+                    "bezeichnung": "Fujitsu Lifebook E5511",
+                    "bestand": 1,
+                    "standort": "Lehrerzimmer",
+                    "seriennummer": "NB-109",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5-1135G7"
+                },
+                {
+                    "id": 23,
+                    "bezeichnung": "Acer TravelMate P2",
+                    "bestand": 1,
+                    "standort": "Raum 102",
+                    "seriennummer": "NB-110",
+                    "ram": "8 GB",
+                    "prozessor": "Ryzen 5 5500U"
+                },
+                {
+                    "id": 24,
+                    "bezeichnung": "Lenovo V15 G3",
+                    "bestand": 10,
+                    "standort": "Chemieraum",
+                    "seriennummer": "",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5-1235U"
+                },
+                {
+                    "id": 25,
+                    "bezeichnung": "Apple MacBook Air M1",
+                    "bestand": 1,
+                    "standort": "Musikraum",
+                    "seriennummer": "NB-111",
+                    "ram": "8 GB",
+                    "prozessor": "Apple M1"
+                },
+                {
+                    "id": 26,
+                    "bezeichnung": "Schulungsnotebook",
+                    "bestand": 1,
+                    "standort": "Raum 203",
+                    "seriennummer": "NB-112",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5"
+                },
+                {
+                    "id": 27,
+                    "bezeichnung": "ThinkPad T14 Gen 3",
+                    "bestand": 2,
+                    "standort": "Raum 105",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-1240P"
+                },
+                {
+                    "id": 28,
+                    "bezeichnung": "ThinkPad L15 Gen 3",
+                    "bestand": 1,
+                    "standort": "Raum 204 (Informatik)",
+                    "seriennummer": "NB-113",
+                    "ram": "16 GB",
+                    "prozessor": "Ryzen 5 5625U"
+                },
+                {
+                    "id": 29,
+                    "bezeichnung": "ThinkPad E14 Gen 4",
+                    "bestand": 1,
+                    "standort": "Sekretariat",
+                    "seriennummer": "NB-114",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5-1235U"
+                },
+                {
+                    "id": 30,
+                    "bezeichnung": "Dell Latitude 5430",
+                    "bestand": 6,
+                    "standort": "Werkstatt",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-1235U"
+                },
+                {
+                    "id": 31,
+                    "bezeichnung": "Dell Latitude 3330",
+                    "bestand": 3,
+                    "standort": "Lehrerzimmer",
+                    "seriennummer": "",
+                    "ram": "8 GB",
+                    "prozessor": "Core i3-1115G4"
+                },
+                {
+                    "id": 32,
+                    "bezeichnung": "HP ProBook 450 G9",
+                    "bestand": 4,
+                    "standort": "Raum 202",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-1235U"
+                },
+                {
+                    "id": 33,
+                    "bezeichnung": "HP EliteBook 840 G9",
+                    "bestand": 1,
+                    "standort": "Raum 101",
+                    "seriennummer": "NB-115",
+                    "ram": "16 GB",
+                    "prozessor": "Core i7-1255U"
+                },
+                {
+                    "id": 34,
+                    "bezeichnung": "Fujitsu Lifebook E5511",
+                    "bestand": 2,
+                    "standort": "Sporthalle",
+                    "seriennummer": "",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5-1135G7"
+                },
+                {
+                    "id": 35,
+                    "bezeichnung": "Acer TravelMate P2",
+                    "bestand": 10,
+                    "standort": "Werkstatt",
+                    "seriennummer": "",
+                    "ram": "8 GB",
+                    "prozessor": "Ryzen 5 5500U"
+                },
+                {
+                    "id": 36,
+                    "bezeichnung": "Lenovo V15 G3",
+                    "bestand": 3,
+                    "standort": "Mensa",
+                    "seriennummer": "",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5-1235U"
+                },
+                {
+                    "id": 37,
+                    "bezeichnung": "Apple MacBook Air M1",
+                    "bestand": 1,
+                    "standort": "Sekretariat",
+                    "seriennummer": "NB-116",
+                    "ram": "8 GB",
+                    "prozessor": "Apple M1"
+                },
+                {
+                    "id": 38,
+                    "bezeichnung": "Schulungsnotebook",
+                    "bestand": 15,
+                    "standort": "Raum 201",
+                    "seriennummer": "",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5"
+                },
+                {
+                    "id": 39,
+                    "bezeichnung": "ThinkPad T14 Gen 3",
+                    "bestand": 10,
+                    "standort": "Foyer",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-1240P"
+                },
+                {
+                    "id": 40,
+                    "bezeichnung": "ThinkPad L15 Gen 3",
+                    "bestand": 1,
+                    "standort": "Raum 204 (Informatik)",
+                    "seriennummer": "NB-117",
+                    "ram": "16 GB",
+                    "prozessor": "Ryzen 5 5625U"
+                },
+                {
+                    "id": 41,
+                    "bezeichnung": "ThinkPad E14 Gen 4",
+                    "bestand": 15,
+                    "standort": "Lager Nord",
+                    "seriennummer": "",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5-1235U"
+                },
+                {
+                    "id": 42,
+                    "bezeichnung": "Dell Latitude 5430",
+                    "bestand": 1,
+                    "standort": "Raum 105",
+                    "seriennummer": "NB-118",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-1235U"
+                },
+                {
+                    "id": 43,
+                    "bezeichnung": "Dell Latitude 3330",
+                    "bestand": 1,
+                    "standort": "Lehrerzimmer",
+                    "seriennummer": "NB-119",
+                    "ram": "8 GB",
+                    "prozessor": "Core i3-1115G4"
+                },
+                {
+                    "id": 44,
+                    "bezeichnung": "HP ProBook 450 G9",
+                    "bestand": 1,
+                    "standort": "Werkstatt",
+                    "seriennummer": "NB-120",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-1235U"
+                },
+                {
+                    "id": 45,
+                    "bezeichnung": "HP EliteBook 840 G9",
+                    "bestand": 6,
+                    "standort": "Raum 102",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i7-1255U"
+                },
+                {
+                    "id": 46,
+                    "bezeichnung": "Fujitsu Lifebook E5511",
+                    "bestand": 1,
+                    "standort": "Lager; Nord",
+                    "seriennummer": "NB-121",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5-1135G7"
+                },
+                {
+                    "id": 47,
+                    "bezeichnung": "Acer TravelMate P2",
+                    "bestand": 1,
+                    "standort": "Raum 105",
+                    "seriennummer": "NB-122",
+                    "ram": "8 GB",
+                    "prozessor": "Ryzen 5 5500U"
+                },
+                {
+                    "id": 48,
+                    "bezeichnung": "Lenovo V15 G3",
+                    "bestand": 2,
+                    "standort": "Werkstatt",
+                    "seriennummer": "",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5-1235U"
+                },
+                {
+                    "id": 49,
+                    "bezeichnung": "Apple MacBook Air M1",
+                    "bestand": 1,
+                    "standort": "Musikraum",
+                    "seriennummer": "",
+                    "ram": "8 GB",
+                    "prozessor": "Apple M1"
+                },
+                {
+                    "id": 50,
+                    "bezeichnung": "Schulungsnotebook",
+                    "bestand": 1,
+                    "standort": "Aula",
+                    "seriennummer": "NB-123",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5"
+                },
+                {
+                    "id": 51,
+                    "bezeichnung": "ThinkPad T14 Gen 3",
+                    "bestand": 4,
+                    "standort": "Mensa",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-1240P"
+                },
+                {
+                    "id": 52,
+                    "bezeichnung": "ThinkPad L15 Gen 3",
+                    "bestand": 1,
+                    "standort": "Raum 202",
+                    "seriennummer": "NB-124",
+                    "ram": "16 GB",
+                    "prozessor": "Ryzen 5 5625U"
+                },
+                {
+                    "id": 53,
+                    "bezeichnung": "ThinkPad E14 Gen 4",
+                    "bestand": 1,
+                    "standort": "Raum 201",
+                    "seriennummer": "NB-125",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5-1235U"
+                },
+                {
+                    "id": 54,
+                    "bezeichnung": "Dell Latitude 5430",
+                    "bestand": 1,
+                    "standort": "Sekretariat",
+                    "seriennummer": "NB-126",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-1235U"
+                },
+                {
+                    "id": 55,
+                    "bezeichnung": "Dell Latitude 3330",
+                    "bestand": 1,
+                    "standort": "Werkstatt",
+                    "seriennummer": "NB-127",
+                    "ram": "8 GB",
+                    "prozessor": "Core i3-1115G4"
+                },
+                {
+                    "id": 56,
+                    "bezeichnung": "HP ProBook 450 G9",
+                    "bestand": 2,
+                    "standort": "Konferenzraum",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-1235U"
+                },
+                {
+                    "id": 57,
+                    "bezeichnung": "HP EliteBook 840 G9",
+                    "bestand": 3,
+                    "standort": "Raum 201",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i7-1255U"
+                },
+                {
+                    "id": 58,
+                    "bezeichnung": "Fujitsu Lifebook E5511",
+                    "bestand": 15,
+                    "standort": "Sekretariat",
+                    "seriennummer": "",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5-1135G7"
+                },
+                {
+                    "id": 59,
+                    "bezeichnung": "Acer TravelMate P2",
+                    "bestand": 10,
+                    "standort": "Medienraum",
+                    "seriennummer": "",
+                    "ram": "8 GB",
+                    "prozessor": "Ryzen 5 5500U"
+                },
+                {
+                    "id": 60,
+                    "bezeichnung": "Lenovo V15 G3",
+                    "bestand": 1,
+                    "standort": "Lehrerzimmer",
+                    "seriennummer": "NB-128",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5-1235U"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Beamer",
+            "datei": "beamer.csv",
+            "felder": [
+                "aufloesung",
+                "anschluss",
+                "lichtleistung"
+            ],
+            "geraete": [
+                {
+                    "id": 1,
+                    "bezeichnung": "Seminarbeamer",
+                    "bestand": 2,
+                    "standort": "Lager; Nord",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI",
+                    "lichtleistung": "3500 lm"
+                },
+                {
+                    "id": 2,
+                    "bezeichnung": "Deckenbeamer",
+                    "bestand": 1,
+                    "standort": "Raum 101",
+                    "aufloesung": "1280x800",
+                    "anschluss": "VGA",
+                    "lichtleistung": ""
+                },
+                {
+                    "id": 3,
+                    "bezeichnung": "Epson EB-W06",
+                    "bestand": 1,
+                    "standort": "Foyer",
+                    "aufloesung": "1280x800",
+                    "anschluss": "HDMI",
+                    "lichtleistung": "3700 lm"
+                },
+                {
+                    "id": 4,
+                    "bezeichnung": "Epson EB-2250U",
+                    "bestand": 3,
+                    "standort": "Lager Nord",
+                    "aufloesung": "1920x1200",
+                    "anschluss": "HDMI+VGA",
+                    "lichtleistung": "5000 lm"
+                },
+                {
+                    "id": 5,
+                    "bezeichnung": "BenQ MW535A",
+                    "bestand": 1,
+                    "standort": "Raum 104",
+                    "aufloesung": "1280x800",
+                    "anschluss": "HDMI",
+                    "lichtleistung": "3600 lm"
+                },
+                {
+                    "id": 6,
+                    "bezeichnung": "BenQ MX560",
+                    "bestand": 1,
+                    "standort": "Sporthalle",
+                    "aufloesung": "1024x768",
+                    "anschluss": "HDMI+VGA",
+                    "lichtleistung": "4000 lm"
+                },
+                {
+                    "id": 7,
+                    "bezeichnung": "Casio XJ-F210WN",
+                    "bestand": 2,
+                    "standort": "Sporthalle",
+                    "aufloesung": "1280x800",
+                    "anschluss": "HDMI",
+                    "lichtleistung": "3500 lm"
+                },
+                {
+                    "id": 8,
+                    "bezeichnung": "Panasonic PT-VZ580",
+                    "bestand": 2,
+                    "standort": "Raum 101",
+                    "aufloesung": "1920x1200",
+                    "anschluss": "HDMI+VGA",
+                    "lichtleistung": "5000 lm"
+                },
+                {
+                    "id": 9,
+                    "bezeichnung": "Sony VPL-DX221",
+                    "bestand": 1,
+                    "standort": "Aula",
+                    "aufloesung": "1024x768",
+                    "anschluss": "HDMI+VGA",
+                    "lichtleistung": "2800 lm"
+                },
+                {
+                    "id": 10,
+                    "bezeichnung": "ViewSonic PA503W",
+                    "bestand": 1,
+                    "standort": "Sporthalle",
+                    "aufloesung": "1280x800",
+                    "anschluss": "HDMI",
+                    "lichtleistung": "3800 lm"
+                },
+                {
+                    "id": 11,
+                    "bezeichnung": "Acer P1250",
+                    "bestand": 1,
+                    "standort": "Raum 201",
+                    "aufloesung": "1024x768",
+                    "anschluss": "HDMI+VGA",
+                    "lichtleistung": "3600 lm"
+                },
+                {
+                    "id": 12,
+                    "bezeichnung": "Optoma W400LVe",
+                    "bestand": 1,
+                    "standort": "Konferenzraum",
+                    "aufloesung": "1280x800",
+                    "anschluss": "HDMI",
+                    "lichtleistung": "4000 lm"
+                },
+                {
+                    "id": 13,
+                    "bezeichnung": "Epson EB-W06",
+                    "bestand": 2,
+                    "standort": "Raum 104",
+                    "aufloesung": "1280x800",
+                    "anschluss": "HDMI",
+                    "lichtleistung": "3700 lm"
+                },
+                {
+                    "id": 14,
+                    "bezeichnung": "Epson EB-2250U",
+                    "bestand": 1,
+                    "standort": "Raum 201",
+                    "aufloesung": "1920x1200",
+                    "anschluss": "HDMI+VGA",
+                    "lichtleistung": "5000 lm"
+                },
+                {
+                    "id": 15,
+                    "bezeichnung": "BenQ MW535A",
+                    "bestand": 1,
+                    "standort": "Lager Nord",
+                    "aufloesung": "1280x800",
+                    "anschluss": "HDMI",
+                    "lichtleistung": "3600 lm"
+                },
+                {
+                    "id": 16,
+                    "bezeichnung": "BenQ MX560",
+                    "bestand": 3,
+                    "standort": "Raum 103",
+                    "aufloesung": "1024x768",
+                    "anschluss": "HDMI+VGA",
+                    "lichtleistung": "4000 lm"
+                },
+                {
+                    "id": 17,
+                    "bezeichnung": "Casio XJ-F210WN",
+                    "bestand": 1,
+                    "standort": "Foyer",
+                    "aufloesung": "1280x800",
+                    "anschluss": "HDMI",
+                    "lichtleistung": "3500 lm"
+                },
+                {
+                    "id": 18,
+                    "bezeichnung": "Panasonic PT-VZ580",
+                    "bestand": 1,
+                    "standort": "Musikraum",
+                    "aufloesung": "1920x1200",
+                    "anschluss": "HDMI+VGA",
+                    "lichtleistung": "5000 lm"
+                },
+                {
+                    "id": 19,
+                    "bezeichnung": "Sony VPL-DX221",
+                    "bestand": 2,
+                    "standort": "Medienraum",
+                    "aufloesung": "1024x768",
+                    "anschluss": "HDMI+VGA",
+                    "lichtleistung": "2800 lm"
+                },
+                {
+                    "id": 20,
+                    "bezeichnung": "ViewSonic PA503W",
+                    "bestand": 3,
+                    "standort": "Medienraum",
+                    "aufloesung": "1280x800",
+                    "anschluss": "HDMI",
+                    "lichtleistung": "3800 lm"
+                },
+                {
+                    "id": 21,
+                    "bezeichnung": "Acer P1250",
+                    "bestand": 1,
+                    "standort": "Aula",
+                    "aufloesung": "1024x768",
+                    "anschluss": "HDMI+VGA",
+                    "lichtleistung": "3600 lm"
+                },
+                {
+                    "id": 22,
+                    "bezeichnung": "Optoma W400LVe",
+                    "bestand": 1,
+                    "standort": "Musikraum",
+                    "aufloesung": "1280x800",
+                    "anschluss": "HDMI",
+                    "lichtleistung": "4000 lm"
+                },
+                {
+                    "id": 23,
+                    "bezeichnung": "Epson EB-W06",
+                    "bestand": 1,
+                    "standort": "Raum 201",
+                    "aufloesung": "1280x800",
+                    "anschluss": "HDMI",
+                    "lichtleistung": "3700 lm"
+                },
+                {
+                    "id": 24,
+                    "bezeichnung": "Epson EB-2250U",
+                    "bestand": 1,
+                    "standort": "Raum 104",
+                    "aufloesung": "1920x1200",
+                    "anschluss": "HDMI+VGA",
+                    "lichtleistung": "5000 lm"
+                },
+                {
+                    "id": 25,
+                    "bezeichnung": "BenQ MW535A",
+                    "bestand": 2,
+                    "standort": "Raum 201",
+                    "aufloesung": "1280x800",
+                    "anschluss": "HDMI",
+                    "lichtleistung": "3600 lm"
+                },
+                {
+                    "id": 26,
+                    "bezeichnung": "BenQ MX560",
+                    "bestand": 1,
+                    "standort": "Musikraum",
+                    "aufloesung": "1024x768",
+                    "anschluss": "HDMI+VGA",
+                    "lichtleistung": "4000 lm"
+                },
+                {
+                    "id": 27,
+                    "bezeichnung": "Casio XJ-F210WN",
+                    "bestand": 1,
+                    "standort": "Raum 104",
+                    "aufloesung": "1280x800",
+                    "anschluss": "HDMI",
+                    "lichtleistung": "3500 lm"
+                },
+                {
+                    "id": 28,
+                    "bezeichnung": "Panasonic PT-VZ580",
+                    "bestand": 2,
+                    "standort": "Sporthalle",
+                    "aufloesung": "1920x1200",
+                    "anschluss": "HDMI+VGA",
+                    "lichtleistung": "5000 lm"
+                },
+                {
+                    "id": 29,
+                    "bezeichnung": "Sony VPL-DX221",
+                    "bestand": 3,
+                    "standort": "Lager Nord",
+                    "aufloesung": "1024x768",
+                    "anschluss": "HDMI+VGA",
+                    "lichtleistung": "2800 lm"
+                },
+                {
+                    "id": 30,
+                    "bezeichnung": "ViewSonic PA503W",
+                    "bestand": 2,
+                    "standort": "Raum 102",
+                    "aufloesung": "1280x800",
+                    "anschluss": "HDMI",
+                    "lichtleistung": "3800 lm"
+                },
+                {
+                    "id": 31,
+                    "bezeichnung": "Acer P1250",
+                    "bestand": 1,
+                    "standort": "Chemieraum",
+                    "aufloesung": "1024x768",
+                    "anschluss": "HDMI+VGA",
+                    "lichtleistung": "3600 lm"
+                },
+                {
+                    "id": 32,
+                    "bezeichnung": "Optoma W400LVe",
+                    "bestand": 3,
+                    "standort": "Raum 201",
+                    "aufloesung": "1280x800",
+                    "anschluss": "HDMI",
+                    "lichtleistung": "4000 lm"
+                },
+                {
+                    "id": 33,
+                    "bezeichnung": "Epson EB-W06",
+                    "bestand": 2,
+                    "standort": "Sporthalle",
+                    "aufloesung": "1280x800",
+                    "anschluss": "HDMI",
+                    "lichtleistung": "3700 lm"
+                },
+                {
+                    "id": 34,
+                    "bezeichnung": "Epson EB-2250U",
+                    "bestand": 2,
+                    "standort": "Raum 103",
+                    "aufloesung": "1920x1200",
+                    "anschluss": "HDMI+VGA",
+                    "lichtleistung": "5000 lm"
+                },
+                {
+                    "id": 35,
+                    "bezeichnung": "BenQ MW535A",
+                    "bestand": 1,
+                    "standort": "Raum 202",
+                    "aufloesung": "1280x800",
+                    "anschluss": "HDMI",
+                    "lichtleistung": "3600 lm"
+                },
+                {
+                    "id": 36,
+                    "bezeichnung": "BenQ MX560",
+                    "bestand": 1,
+                    "standort": "Raum 103",
+                    "aufloesung": "1024x768",
+                    "anschluss": "HDMI+VGA",
+                    "lichtleistung": "4000 lm"
+                },
+                {
+                    "id": 37,
+                    "bezeichnung": "Casio XJ-F210WN",
+                    "bestand": 2,
+                    "standort": "Musikraum",
+                    "aufloesung": "1280x800",
+                    "anschluss": "HDMI",
+                    "lichtleistung": "3500 lm"
+                },
+                {
+                    "id": 38,
+                    "bezeichnung": "Panasonic PT-VZ580",
+                    "bestand": 2,
+                    "standort": "Sporthalle",
+                    "aufloesung": "1920x1200",
+                    "anschluss": "HDMI+VGA",
+                    "lichtleistung": "5000 lm"
+                },
+                {
+                    "id": 39,
+                    "bezeichnung": "Sony VPL-DX221",
+                    "bestand": 3,
+                    "standort": "Lager Nord",
+                    "aufloesung": "1024x768",
+                    "anschluss": "HDMI+VGA",
+                    "lichtleistung": "2800 lm"
+                },
+                {
+                    "id": 40,
+                    "bezeichnung": "ViewSonic PA503W",
+                    "bestand": 1,
+                    "standort": "Raum 202",
+                    "aufloesung": "1280x800",
+                    "anschluss": "HDMI",
+                    "lichtleistung": "3800 lm"
+                },
+                {
+                    "id": 41,
+                    "bezeichnung": "Acer P1250",
+                    "bestand": 2,
+                    "standort": "Konferenzraum",
+                    "aufloesung": "1024x768",
+                    "anschluss": "HDMI+VGA",
+                    "lichtleistung": "3600 lm"
+                },
+                {
+                    "id": 42,
+                    "bezeichnung": "Optoma W400LVe",
+                    "bestand": 1,
+                    "standort": "Musikraum",
+                    "aufloesung": "1280x800",
+                    "anschluss": "HDMI",
+                    "lichtleistung": "4000 lm"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Desktop-PC",
+            "datei": "desktop_pc.csv",
+            "felder": [
+                "seriennummer",
+                "ram",
+                "prozessor"
+            ],
+            "geraete": [
+                {
+                    "id": 1,
+                    "bezeichnung": "Fujitsu Esprimo P5010",
+                    "bestand": 8,
+                    "standort": "Musikraum",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-10400"
+                },
+                {
+                    "id": 2,
+                    "bezeichnung": "Dell OptiPlex 7010",
+                    "bestand": 8,
+                    "standort": "Sporthalle",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-13500"
+                },
+                {
+                    "id": 3,
+                    "bezeichnung": "HP ProDesk 400 G9",
+                    "bestand": 1,
+                    "standort": "Medienraum",
+                    "seriennummer": "PC-101",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5-12500"
+                },
+                {
+                    "id": 4,
+                    "bezeichnung": "Lenovo ThinkCentre M70q",
+                    "bestand": 2,
+                    "standort": "Lehrerzimmer",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-12400T"
+                },
+                {
+                    "id": 5,
+                    "bezeichnung": "Acer Veriton X2690G",
+                    "bestand": 1,
+                    "standort": "Raum 104",
+                    "seriennummer": "PC-102",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5-12400"
+                },
+                {
+                    "id": 6,
+                    "bezeichnung": "Medion Akoya P66070",
+                    "bestand": 1,
+                    "standort": "Sekretariat",
+                    "seriennummer": "PC-103",
+                    "ram": "8 GB",
+                    "prozessor": "Core i3-10100"
+                },
+                {
+                    "id": 7,
+                    "bezeichnung": "Fujitsu Esprimo D7011",
+                    "bestand": 12,
+                    "standort": "Sekretariat",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-11400"
+                },
+                {
+                    "id": 8,
+                    "bezeichnung": "HP EliteDesk 800 G6",
+                    "bestand": 4,
+                    "standort": "Raum 102",
+                    "seriennummer": "",
+                    "ram": "32 GB",
+                    "prozessor": "Core i7-10700"
+                },
+                {
+                    "id": 9,
+                    "bezeichnung": "Fujitsu Esprimo P5010",
+                    "bestand": 1,
+                    "standort": "Raum 201",
+                    "seriennummer": "PC-104",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-10400"
+                },
+                {
+                    "id": 10,
+                    "bezeichnung": "Dell OptiPlex 7010",
+                    "bestand": 1,
+                    "standort": "Lehrerzimmer",
+                    "seriennummer": "PC-105",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-13500"
+                },
+                {
+                    "id": 11,
+                    "bezeichnung": "HP ProDesk 400 G9",
+                    "bestand": 8,
+                    "standort": "Foyer",
+                    "seriennummer": "",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5-12500"
+                },
+                {
+                    "id": 12,
+                    "bezeichnung": "Lenovo ThinkCentre M70q",
+                    "bestand": 1,
+                    "standort": "Werkstatt",
+                    "seriennummer": "PC-106",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-12400T"
+                },
+                {
+                    "id": 13,
+                    "bezeichnung": "Acer Veriton X2690G",
+                    "bestand": 3,
+                    "standort": "Foyer",
+                    "seriennummer": "",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5-12400"
+                },
+                {
+                    "id": 14,
+                    "bezeichnung": "Medion Akoya P66070",
+                    "bestand": 2,
+                    "standort": "Musikraum",
+                    "seriennummer": "",
+                    "ram": "8 GB",
+                    "prozessor": "Core i3-10100"
+                },
+                {
+                    "id": 15,
+                    "bezeichnung": "Fujitsu Esprimo D7011",
+                    "bestand": 6,
+                    "standort": "Raum 101",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-11400"
+                },
+                {
+                    "id": 16,
+                    "bezeichnung": "HP EliteDesk 800 G6",
+                    "bestand": 8,
+                    "standort": "Sekretariat",
+                    "seriennummer": "",
+                    "ram": "32 GB",
+                    "prozessor": "Core i7-10700"
+                },
+                {
+                    "id": 17,
+                    "bezeichnung": "Fujitsu Esprimo P5010",
+                    "bestand": 8,
+                    "standort": "Raum 205",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-10400"
+                },
+                {
+                    "id": 18,
+                    "bezeichnung": "Dell OptiPlex 7010",
+                    "bestand": 1,
+                    "standort": "Raum 202",
+                    "seriennummer": "PC-107",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-13500"
+                },
+                {
+                    "id": 19,
+                    "bezeichnung": "HP ProDesk 400 G9",
+                    "bestand": 12,
+                    "standort": "Sekretariat",
+                    "seriennummer": "",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5-12500"
+                },
+                {
+                    "id": 20,
+                    "bezeichnung": "Lenovo ThinkCentre M70q",
+                    "bestand": 8,
+                    "standort": "Raum 202",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-12400T"
+                },
+                {
+                    "id": 21,
+                    "bezeichnung": "Acer Veriton X2690G",
+                    "bestand": 8,
+                    "standort": "Raum 101",
+                    "seriennummer": "",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5-12400"
+                },
+                {
+                    "id": 22,
+                    "bezeichnung": "Medion Akoya P66070",
+                    "bestand": 1,
+                    "standort": "Raum 204 (Informatik)",
+                    "seriennummer": "PC-108",
+                    "ram": "8 GB",
+                    "prozessor": "Core i3-10100"
+                },
+                {
+                    "id": 23,
+                    "bezeichnung": "Fujitsu Esprimo D7011",
+                    "bestand": 1,
+                    "standort": "Raum 103",
+                    "seriennummer": "PC-109",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-11400"
+                },
+                {
+                    "id": 24,
+                    "bezeichnung": "HP EliteDesk 800 G6",
+                    "bestand": 8,
+                    "standort": "Raum 103",
+                    "seriennummer": "",
+                    "ram": "32 GB",
+                    "prozessor": "Core i7-10700"
+                },
+                {
+                    "id": 25,
+                    "bezeichnung": "Fujitsu Esprimo P5010",
+                    "bestand": 3,
+                    "standort": "Raum 203",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-10400"
+                },
+                {
+                    "id": 26,
+                    "bezeichnung": "Dell OptiPlex 7010",
+                    "bestand": 4,
+                    "standort": "Raum 202",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-13500"
+                },
+                {
+                    "id": 27,
+                    "bezeichnung": "HP ProDesk 400 G9",
+                    "bestand": 6,
+                    "standort": "Raum 105",
+                    "seriennummer": "",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5-12500"
+                },
+                {
+                    "id": 28,
+                    "bezeichnung": "Lenovo ThinkCentre M70q",
+                    "bestand": 1,
+                    "standort": "Werkstatt",
+                    "seriennummer": "PC-110",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-12400T"
+                },
+                {
+                    "id": 29,
+                    "bezeichnung": "Acer Veriton X2690G",
+                    "bestand": 2,
+                    "standort": "Raum 205",
+                    "seriennummer": "",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5-12400"
+                },
+                {
+                    "id": 30,
+                    "bezeichnung": "Medion Akoya P66070",
+                    "bestand": 2,
+                    "standort": "Raum 202",
+                    "seriennummer": "",
+                    "ram": "8 GB",
+                    "prozessor": "Core i3-10100"
+                },
+                {
+                    "id": 31,
+                    "bezeichnung": "Fujitsu Esprimo D7011",
+                    "bestand": 12,
+                    "standort": "Raum 203",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-11400"
+                },
+                {
+                    "id": 32,
+                    "bezeichnung": "HP EliteDesk 800 G6",
+                    "bestand": 4,
+                    "standort": "Raum 105",
+                    "seriennummer": "",
+                    "ram": "32 GB",
+                    "prozessor": "Core i7-10700"
+                },
+                {
+                    "id": 33,
+                    "bezeichnung": "Fujitsu Esprimo P5010",
+                    "bestand": 6,
+                    "standort": "Werkstatt",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-10400"
+                },
+                {
+                    "id": 34,
+                    "bezeichnung": "Dell OptiPlex 7010",
+                    "bestand": 6,
+                    "standort": "Raum 201",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-13500"
+                },
+                {
+                    "id": 35,
+                    "bezeichnung": "HP ProDesk 400 G9",
+                    "bestand": 1,
+                    "standort": "Lager Nord",
+                    "seriennummer": "PC-111",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5-12500"
+                },
+                {
+                    "id": 36,
+                    "bezeichnung": "Lenovo ThinkCentre M70q",
+                    "bestand": 3,
+                    "standort": "Raum 103",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-12400T"
+                },
+                {
+                    "id": 37,
+                    "bezeichnung": "Acer Veriton X2690G",
+                    "bestand": 12,
+                    "standort": "Chemieraum",
+                    "seriennummer": "",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5-12400"
+                },
+                {
+                    "id": 38,
+                    "bezeichnung": "Medion Akoya P66070",
+                    "bestand": 8,
+                    "standort": "Mensa",
+                    "seriennummer": "",
+                    "ram": "8 GB",
+                    "prozessor": "Core i3-10100"
+                },
+                {
+                    "id": 39,
+                    "bezeichnung": "Fujitsu Esprimo D7011",
+                    "bestand": 12,
+                    "standort": "Raum 205",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-11400"
+                },
+                {
+                    "id": 40,
+                    "bezeichnung": "HP EliteDesk 800 G6",
+                    "bestand": 3,
+                    "standort": "Sporthalle",
+                    "seriennummer": "",
+                    "ram": "32 GB",
+                    "prozessor": "Core i7-10700"
+                },
+                {
+                    "id": 41,
+                    "bezeichnung": "Fujitsu Esprimo P5010",
+                    "bestand": 1,
+                    "standort": "Raum 105",
+                    "seriennummer": "PC-112",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-10400"
+                },
+                {
+                    "id": 42,
+                    "bezeichnung": "Dell OptiPlex 7010",
+                    "bestand": 2,
+                    "standort": "Foyer",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-13500"
+                },
+                {
+                    "id": 43,
+                    "bezeichnung": "HP ProDesk 400 G9",
+                    "bestand": 6,
+                    "standort": "Raum 202",
+                    "seriennummer": "",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5-12500"
+                },
+                {
+                    "id": 44,
+                    "bezeichnung": "Lenovo ThinkCentre M70q",
+                    "bestand": 12,
+                    "standort": "Raum 202",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-12400T"
+                },
+                {
+                    "id": 45,
+                    "bezeichnung": "Acer Veriton X2690G",
+                    "bestand": 3,
+                    "standort": "Musikraum",
+                    "seriennummer": "",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5-12400"
+                },
+                {
+                    "id": 46,
+                    "bezeichnung": "Medion Akoya P66070",
+                    "bestand": 3,
+                    "standort": "Raum 204 (Informatik)",
+                    "seriennummer": "",
+                    "ram": "8 GB",
+                    "prozessor": "Core i3-10100"
+                },
+                {
+                    "id": 47,
+                    "bezeichnung": "Fujitsu Esprimo D7011",
+                    "bestand": 2,
+                    "standort": "Raum 205",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-11400"
+                },
+                {
+                    "id": 48,
+                    "bezeichnung": "HP EliteDesk 800 G6",
+                    "bestand": 3,
+                    "standort": "Raum 204 (Informatik)",
+                    "seriennummer": "",
+                    "ram": "32 GB",
+                    "prozessor": "Core i7-10700"
+                },
+                {
+                    "id": 49,
+                    "bezeichnung": "Fujitsu Esprimo P5010",
+                    "bestand": 1,
+                    "standort": "Chemieraum",
+                    "seriennummer": "PC-113",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-10400"
+                },
+                {
+                    "id": 50,
+                    "bezeichnung": "Dell OptiPlex 7010",
+                    "bestand": 2,
+                    "standort": "Raum 102",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-13500"
+                },
+                {
+                    "id": 51,
+                    "bezeichnung": "HP ProDesk 400 G9",
+                    "bestand": 8,
+                    "standort": "Chemieraum",
+                    "seriennummer": "",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5-12500"
+                },
+                {
+                    "id": 52,
+                    "bezeichnung": "Lenovo ThinkCentre M70q",
+                    "bestand": 2,
+                    "standort": "Raum 105",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-12400T"
+                },
+                {
+                    "id": 53,
+                    "bezeichnung": "Acer Veriton X2690G",
+                    "bestand": 8,
+                    "standort": "Lager Nord",
+                    "seriennummer": "",
+                    "ram": "8 GB",
+                    "prozessor": "Core i5-12400"
+                },
+                {
+                    "id": 54,
+                    "bezeichnung": "Medion Akoya P66070",
+                    "bestand": 1,
+                    "standort": "Chemieraum",
+                    "seriennummer": "PC-114",
+                    "ram": "8 GB",
+                    "prozessor": "Core i3-10100"
+                },
+                {
+                    "id": 55,
+                    "bezeichnung": "Fujitsu Esprimo D7011",
+                    "bestand": 8,
+                    "standort": "Lager Nord",
+                    "seriennummer": "",
+                    "ram": "16 GB",
+                    "prozessor": "Core i5-11400"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Monitor",
+            "datei": "monitor.csv",
+            "felder": [
+                "zoll",
+                "aufloesung",
+                "anschluss"
+            ],
+            "geraete": [
+                {
+                    "id": 1,
+                    "bezeichnung": "Dell P2422H",
+                    "bestand": 6,
+                    "standort": "Raum 105",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+DisplayPort"
+                },
+                {
+                    "id": 2,
+                    "bezeichnung": "HP E24 G5",
+                    "bestand": 3,
+                    "standort": "Aula",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+DisplayPort"
+                },
+                {
+                    "id": 3,
+                    "bezeichnung": "Samsung S24R350",
+                    "bestand": 4,
+                    "standort": "Raum 102",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA"
+                },
+                {
+                    "id": 4,
+                    "bezeichnung": "LG 24MK430H",
+                    "bestand": 1,
+                    "standort": "Raum 205",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA"
+                },
+                {
+                    "id": 5,
+                    "bezeichnung": "BenQ GW2480",
+                    "bestand": 8,
+                    "standort": "Chemieraum",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA+DisplayPort"
+                },
+                {
+                    "id": 6,
+                    "bezeichnung": "iiyama ProLite XUB2493HS",
+                    "bestand": 4,
+                    "standort": "Raum 105",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+DisplayPort"
+                },
+                {
+                    "id": 7,
+                    "bezeichnung": "Eizo FlexScan EV2360",
+                    "bestand": 12,
+                    "standort": "Medienraum",
+                    "zoll": "23",
+                    "aufloesung": "1920x1200",
+                    "anschluss": "HDMI+DisplayPort"
+                },
+                {
+                    "id": 8,
+                    "bezeichnung": "Philips 243V7QDSB",
+                    "bestand": 1,
+                    "standort": "Raum 201",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA+DVI"
+                },
+                {
+                    "id": 9,
+                    "bezeichnung": "Dell U2723QE",
+                    "bestand": 2,
+                    "standort": "Raum 201",
+                    "zoll": "27",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+DisplayPort+USB-C"
+                },
+                {
+                    "id": 10,
+                    "bezeichnung": "AOC 22B2H",
+                    "bestand": 1,
+                    "standort": "Bibliothek",
+                    "zoll": "22",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA"
+                },
+                {
+                    "id": 11,
+                    "bezeichnung": "Dell P2422H",
+                    "bestand": 1,
+                    "standort": "Werkstatt",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+DisplayPort"
+                },
+                {
+                    "id": 12,
+                    "bezeichnung": "HP E24 G5",
+                    "bestand": 1,
+                    "standort": "Foyer",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+DisplayPort"
+                },
+                {
+                    "id": 13,
+                    "bezeichnung": "Samsung S24R350",
+                    "bestand": 1,
+                    "standort": "Raum 201",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA"
+                },
+                {
+                    "id": 14,
+                    "bezeichnung": "LG 24MK430H",
+                    "bestand": 2,
+                    "standort": "Lehrerzimmer",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA"
+                },
+                {
+                    "id": 15,
+                    "bezeichnung": "BenQ GW2480",
+                    "bestand": 2,
+                    "standort": "Werkstatt",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA+DisplayPort"
+                },
+                {
+                    "id": 16,
+                    "bezeichnung": "iiyama ProLite XUB2493HS",
+                    "bestand": 2,
+                    "standort": "Konferenzraum",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+DisplayPort"
+                },
+                {
+                    "id": 17,
+                    "bezeichnung": "Eizo FlexScan EV2360",
+                    "bestand": 12,
+                    "standort": "Lager Nord",
+                    "zoll": "23",
+                    "aufloesung": "1920x1200",
+                    "anschluss": "HDMI+DisplayPort"
+                },
+                {
+                    "id": 18,
+                    "bezeichnung": "Philips 243V7QDSB",
+                    "bestand": 12,
+                    "standort": "Aula",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA+DVI"
+                },
+                {
+                    "id": 19,
+                    "bezeichnung": "Dell U2723QE",
+                    "bestand": 3,
+                    "standort": "Werkstatt",
+                    "zoll": "27",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+DisplayPort+USB-C"
+                },
+                {
+                    "id": 20,
+                    "bezeichnung": "AOC 22B2H",
+                    "bestand": 8,
+                    "standort": "Lager Nord",
+                    "zoll": "22",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA"
+                },
+                {
+                    "id": 21,
+                    "bezeichnung": "Dell P2422H",
+                    "bestand": 8,
+                    "standort": "Raum 202",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+DisplayPort"
+                },
+                {
+                    "id": 22,
+                    "bezeichnung": "HP E24 G5",
+                    "bestand": 2,
+                    "standort": "Mensa",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+DisplayPort"
+                },
+                {
+                    "id": 23,
+                    "bezeichnung": "Samsung S24R350",
+                    "bestand": 4,
+                    "standort": "Raum 203",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA"
+                },
+                {
+                    "id": 24,
+                    "bezeichnung": "LG 24MK430H",
+                    "bestand": 12,
+                    "standort": "Chemieraum",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA"
+                },
+                {
+                    "id": 25,
+                    "bezeichnung": "BenQ GW2480",
+                    "bestand": 8,
+                    "standort": "Medienraum",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA+DisplayPort"
+                },
+                {
+                    "id": 26,
+                    "bezeichnung": "iiyama ProLite XUB2493HS",
+                    "bestand": 8,
+                    "standort": "Sekretariat",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+DisplayPort"
+                },
+                {
+                    "id": 27,
+                    "bezeichnung": "Eizo FlexScan EV2360",
+                    "bestand": 8,
+                    "standort": "Musikraum",
+                    "zoll": "23",
+                    "aufloesung": "1920x1200",
+                    "anschluss": "HDMI+DisplayPort"
+                },
+                {
+                    "id": 28,
+                    "bezeichnung": "Philips 243V7QDSB",
+                    "bestand": 12,
+                    "standort": "Sporthalle",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA+DVI"
+                },
+                {
+                    "id": 29,
+                    "bezeichnung": "Dell U2723QE",
+                    "bestand": 2,
+                    "standort": "Konferenzraum",
+                    "zoll": "27",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+DisplayPort+USB-C"
+                },
+                {
+                    "id": 30,
+                    "bezeichnung": "AOC 22B2H",
+                    "bestand": 1,
+                    "standort": "Raum 105",
+                    "zoll": "22",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA"
+                },
+                {
+                    "id": 31,
+                    "bezeichnung": "Dell P2422H",
+                    "bestand": 1,
+                    "standort": "Medienraum",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+DisplayPort"
+                },
+                {
+                    "id": 32,
+                    "bezeichnung": "HP E24 G5",
+                    "bestand": 2,
+                    "standort": "Werkstatt",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+DisplayPort"
+                },
+                {
+                    "id": 33,
+                    "bezeichnung": "Samsung S24R350",
+                    "bestand": 1,
+                    "standort": "Raum 105",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA"
+                },
+                {
+                    "id": 34,
+                    "bezeichnung": "LG 24MK430H",
+                    "bestand": 2,
+                    "standort": "Konferenzraum",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA"
+                },
+                {
+                    "id": 35,
+                    "bezeichnung": "BenQ GW2480",
+                    "bestand": 8,
+                    "standort": "Raum 105",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA+DisplayPort"
+                },
+                {
+                    "id": 36,
+                    "bezeichnung": "iiyama ProLite XUB2493HS",
+                    "bestand": 6,
+                    "standort": "Raum 103",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+DisplayPort"
+                },
+                {
+                    "id": 37,
+                    "bezeichnung": "Eizo FlexScan EV2360",
+                    "bestand": 3,
+                    "standort": "Werkstatt",
+                    "zoll": "23",
+                    "aufloesung": "1920x1200",
+                    "anschluss": "HDMI+DisplayPort"
+                },
+                {
+                    "id": 38,
+                    "bezeichnung": "Philips 243V7QDSB",
+                    "bestand": 6,
+                    "standort": "Werkstatt",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA+DVI"
+                },
+                {
+                    "id": 39,
+                    "bezeichnung": "Dell U2723QE",
+                    "bestand": 1,
+                    "standort": "Chemieraum",
+                    "zoll": "27",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+DisplayPort+USB-C"
+                },
+                {
+                    "id": 40,
+                    "bezeichnung": "AOC 22B2H",
+                    "bestand": 2,
+                    "standort": "Raum 204 (Informatik)",
+                    "zoll": "22",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA"
+                },
+                {
+                    "id": 41,
+                    "bezeichnung": "Dell P2422H",
+                    "bestand": 1,
+                    "standort": "Bibliothek",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+DisplayPort"
+                },
+                {
+                    "id": 42,
+                    "bezeichnung": "HP E24 G5",
+                    "bestand": 8,
+                    "standort": "Raum 101",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+DisplayPort"
+                },
+                {
+                    "id": 43,
+                    "bezeichnung": "Samsung S24R350",
+                    "bestand": 1,
+                    "standort": "Konferenzraum",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA"
+                },
+                {
+                    "id": 44,
+                    "bezeichnung": "LG 24MK430H",
+                    "bestand": 3,
+                    "standort": "Medienraum",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA"
+                },
+                {
+                    "id": 45,
+                    "bezeichnung": "BenQ GW2480",
+                    "bestand": 1,
+                    "standort": "Raum 105",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA+DisplayPort"
+                },
+                {
+                    "id": 46,
+                    "bezeichnung": "iiyama ProLite XUB2493HS",
+                    "bestand": 2,
+                    "standort": "Werkstatt",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+DisplayPort"
+                },
+                {
+                    "id": 47,
+                    "bezeichnung": "Eizo FlexScan EV2360",
+                    "bestand": 6,
+                    "standort": "Bibliothek",
+                    "zoll": "23",
+                    "aufloesung": "1920x1200",
+                    "anschluss": "HDMI+DisplayPort"
+                },
+                {
+                    "id": 48,
+                    "bezeichnung": "Philips 243V7QDSB",
+                    "bestand": 3,
+                    "standort": "Sekretariat",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA+DVI"
+                },
+                {
+                    "id": 49,
+                    "bezeichnung": "Dell U2723QE",
+                    "bestand": 2,
+                    "standort": "Raum 105",
+                    "zoll": "27",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+DisplayPort+USB-C"
+                },
+                {
+                    "id": 50,
+                    "bezeichnung": "AOC 22B2H",
+                    "bestand": 1,
+                    "standort": "Raum 204 (Informatik)",
+                    "zoll": "22",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA"
+                },
+                {
+                    "id": 51,
+                    "bezeichnung": "Dell P2422H",
+                    "bestand": 2,
+                    "standort": "Medienraum",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+DisplayPort"
+                },
+                {
+                    "id": 52,
+                    "bezeichnung": "HP E24 G5",
+                    "bestand": 2,
+                    "standort": "Aula",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+DisplayPort"
+                },
+                {
+                    "id": 53,
+                    "bezeichnung": "Samsung S24R350",
+                    "bestand": 12,
+                    "standort": "Lager Nord",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA"
+                },
+                {
+                    "id": 54,
+                    "bezeichnung": "LG 24MK430H",
+                    "bestand": 2,
+                    "standort": "Raum 104",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA"
+                },
+                {
+                    "id": 55,
+                    "bezeichnung": "BenQ GW2480",
+                    "bestand": 1,
+                    "standort": "Raum 205",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA+DisplayPort"
+                },
+                {
+                    "id": 56,
+                    "bezeichnung": "iiyama ProLite XUB2493HS",
+                    "bestand": 3,
+                    "standort": "Foyer",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+DisplayPort"
+                },
+                {
+                    "id": 57,
+                    "bezeichnung": "Eizo FlexScan EV2360",
+                    "bestand": 1,
+                    "standort": "Raum 103",
+                    "zoll": "23",
+                    "aufloesung": "1920x1200",
+                    "anschluss": "HDMI+DisplayPort"
+                },
+                {
+                    "id": 58,
+                    "bezeichnung": "Philips 243V7QDSB",
+                    "bestand": 3,
+                    "standort": "Konferenzraum",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA+DVI"
+                },
+                {
+                    "id": 59,
+                    "bezeichnung": "Dell U2723QE",
+                    "bestand": 1,
+                    "standort": "Raum 101",
+                    "zoll": "27",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+DisplayPort+USB-C"
+                },
+                {
+                    "id": 60,
+                    "bezeichnung": "AOC 22B2H",
+                    "bestand": 1,
+                    "standort": "Raum 204 (Informatik)",
+                    "zoll": "22",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA"
+                },
+                {
+                    "id": 61,
+                    "bezeichnung": "Dell P2422H",
+                    "bestand": 1,
+                    "standort": "Raum 104",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+DisplayPort"
+                },
+                {
+                    "id": 62,
+                    "bezeichnung": "HP E24 G5",
+                    "bestand": 2,
+                    "standort": "Lehrerzimmer",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+DisplayPort"
+                },
+                {
+                    "id": 63,
+                    "bezeichnung": "Samsung S24R350",
+                    "bestand": 8,
+                    "standort": "Raum 205",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA"
+                },
+                {
+                    "id": 64,
+                    "bezeichnung": "LG 24MK430H",
+                    "bestand": 6,
+                    "standort": "Lager Nord",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA"
+                },
+                {
+                    "id": 65,
+                    "bezeichnung": "BenQ GW2480",
+                    "bestand": 8,
+                    "standort": "Lager Nord",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA+DisplayPort"
+                },
+                {
+                    "id": 66,
+                    "bezeichnung": "iiyama ProLite XUB2493HS",
+                    "bestand": 12,
+                    "standort": "Raum 202",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+DisplayPort"
+                },
+                {
+                    "id": 67,
+                    "bezeichnung": "Eizo FlexScan EV2360",
+                    "bestand": 6,
+                    "standort": "Sekretariat",
+                    "zoll": "23",
+                    "aufloesung": "1920x1200",
+                    "anschluss": "HDMI+DisplayPort"
+                },
+                {
+                    "id": 68,
+                    "bezeichnung": "Philips 243V7QDSB",
+                    "bestand": 12,
+                    "standort": "Sekretariat",
+                    "zoll": "24",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA+DVI"
+                },
+                {
+                    "id": 69,
+                    "bezeichnung": "Dell U2723QE",
+                    "bestand": 2,
+                    "standort": "Raum 204 (Informatik)",
+                    "zoll": "27",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+DisplayPort+USB-C"
+                },
+                {
+                    "id": 70,
+                    "bezeichnung": "AOC 22B2H",
+                    "bestand": 6,
+                    "standort": "Chemieraum",
+                    "zoll": "22",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Drucker",
+            "datei": "drucker.csv",
+            "felder": [
+                "drucktechnik",
+                "papierformat",
+                "anschluss"
+            ],
+            "geraete": [
+                {
+                    "id": 1,
+                    "bezeichnung": "HP LaserJet Pro M404dn",
+                    "bestand": 1,
+                    "standort": "Raum 204 (Informatik)",
+                    "drucktechnik": "Laser",
+                    "papierformat": "A4",
+                    "anschluss": "LAN+USB"
+                },
+                {
+                    "id": 2,
+                    "bezeichnung": "Brother HL-L2350DW",
+                    "bestand": 1,
+                    "standort": "Lehrerzimmer",
+                    "drucktechnik": "Laser",
+                    "papierformat": "A4",
+                    "anschluss": "WLAN+USB"
+                },
+                {
+                    "id": 3,
+                    "bezeichnung": "Kyocera ECOSYS P2040dn",
+                    "bestand": 1,
+                    "standort": "Bibliothek",
+                    "drucktechnik": "Laser",
+                    "papierformat": "A4",
+                    "anschluss": "LAN+USB"
+                },
+                {
+                    "id": 4,
+                    "bezeichnung": "Canon i-SENSYS LBP223dw",
+                    "bestand": 1,
+                    "standort": "Bibliothek",
+                    "drucktechnik": "Laser",
+                    "papierformat": "A4",
+                    "anschluss": "WLAN+USB"
+                },
+                {
+                    "id": 5,
+                    "bezeichnung": "Epson WorkForce Pro WF-C5790",
+                    "bestand": 1,
+                    "standort": "Raum 102",
+                    "drucktechnik": "Tintenstrahl",
+                    "papierformat": "A3",
+                    "anschluss": "LAN+WLAN"
+                },
+                {
+                    "id": 6,
+                    "bezeichnung": "Ricoh SP 230DNw",
+                    "bestand": 2,
+                    "standort": "Verwaltungsflur",
+                    "drucktechnik": "Laser",
+                    "papierformat": "A4",
+                    "anschluss": "LAN+WLAN"
+                },
+                {
+                    "id": 7,
+                    "bezeichnung": "Xerox VersaLink B400",
+                    "bestand": 1,
+                    "standort": "Aula",
+                    "drucktechnik": "Laser",
+                    "papierformat": "A4",
+                    "anschluss": "LAN+USB"
+                },
+                {
+                    "id": 8,
+                    "bezeichnung": "Lexmark MS431dn",
+                    "bestand": 2,
+                    "standort": "Raum 102",
+                    "drucktechnik": "Laser",
+                    "papierformat": "A4",
+                    "anschluss": "LAN+USB"
+                },
+                {
+                    "id": 9,
+                    "bezeichnung": "Brother MFC-L3770CDW",
+                    "bestand": 2,
+                    "standort": "Raum 101",
+                    "drucktechnik": "Laser",
+                    "papierformat": "A4",
+                    "anschluss": "LAN+WLAN+USB"
+                },
+                {
+                    "id": 10,
+                    "bezeichnung": "HP Color LaserJet Pro M479fdw",
+                    "bestand": 1,
+                    "standort": "Raum 101",
+                    "drucktechnik": "Laser",
+                    "papierformat": "A4",
+                    "anschluss": "LAN+WLAN"
+                },
+                {
+                    "id": 11,
+                    "bezeichnung": "HP LaserJet Pro M404dn",
+                    "bestand": 1,
+                    "standort": "Raum 102",
+                    "drucktechnik": "Laser",
+                    "papierformat": "A4",
+                    "anschluss": "LAN+USB"
+                },
+                {
+                    "id": 12,
+                    "bezeichnung": "Brother HL-L2350DW",
+                    "bestand": 1,
+                    "standort": "Raum 101",
+                    "drucktechnik": "Laser",
+                    "papierformat": "A4",
+                    "anschluss": "WLAN+USB"
+                },
+                {
+                    "id": 13,
+                    "bezeichnung": "Kyocera ECOSYS P2040dn",
+                    "bestand": 1,
+                    "standort": "Raum 101",
+                    "drucktechnik": "Laser",
+                    "papierformat": "A4",
+                    "anschluss": "LAN+USB"
+                },
+                {
+                    "id": 14,
+                    "bezeichnung": "Canon i-SENSYS LBP223dw",
+                    "bestand": 1,
+                    "standort": "Verwaltungsflur",
+                    "drucktechnik": "Laser",
+                    "papierformat": "A4",
+                    "anschluss": "WLAN+USB"
+                },
+                {
+                    "id": 15,
+                    "bezeichnung": "Epson WorkForce Pro WF-C5790",
+                    "bestand": 2,
+                    "standort": "Lehrerzimmer",
+                    "drucktechnik": "Tintenstrahl",
+                    "papierformat": "A3",
+                    "anschluss": "LAN+WLAN"
+                },
+                {
+                    "id": 16,
+                    "bezeichnung": "Ricoh SP 230DNw",
+                    "bestand": 2,
+                    "standort": "Raum 101",
+                    "drucktechnik": "Laser",
+                    "papierformat": "A4",
+                    "anschluss": "LAN+WLAN"
+                },
+                {
+                    "id": 17,
+                    "bezeichnung": "Xerox VersaLink B400",
+                    "bestand": 1,
+                    "standort": "Bibliothek",
+                    "drucktechnik": "Laser",
+                    "papierformat": "A4",
+                    "anschluss": "LAN+USB"
+                },
+                {
+                    "id": 18,
+                    "bezeichnung": "Lexmark MS431dn",
+                    "bestand": 1,
+                    "standort": "Sekretariat",
+                    "drucktechnik": "Laser",
+                    "papierformat": "A4",
+                    "anschluss": "LAN+USB"
+                },
+                {
+                    "id": 19,
+                    "bezeichnung": "Brother MFC-L3770CDW",
+                    "bestand": 1,
+                    "standort": "Raum 201",
+                    "drucktechnik": "Laser",
+                    "papierformat": "A4",
+                    "anschluss": "LAN+WLAN+USB"
+                },
+                {
+                    "id": 20,
+                    "bezeichnung": "HP Color LaserJet Pro M479fdw",
+                    "bestand": 3,
+                    "standort": "Verwaltungsflur",
+                    "drucktechnik": "Laser",
+                    "papierformat": "A4",
+                    "anschluss": "LAN+WLAN"
+                },
+                {
+                    "id": 21,
+                    "bezeichnung": "HP LaserJet Pro M404dn",
+                    "bestand": 2,
+                    "standort": "Lehrerzimmer",
+                    "drucktechnik": "Laser",
+                    "papierformat": "A4",
+                    "anschluss": "LAN+USB"
+                },
+                {
+                    "id": 22,
+                    "bezeichnung": "Brother HL-L2350DW",
+                    "bestand": 1,
+                    "standort": "Aula",
+                    "drucktechnik": "Laser",
+                    "papierformat": "A4",
+                    "anschluss": "WLAN+USB"
+                },
+                {
+                    "id": 23,
+                    "bezeichnung": "Kyocera ECOSYS P2040dn",
+                    "bestand": 2,
+                    "standort": "Sekretariat",
+                    "drucktechnik": "Laser",
+                    "papierformat": "A4",
+                    "anschluss": "LAN+USB"
+                },
+                {
+                    "id": 24,
+                    "bezeichnung": "Canon i-SENSYS LBP223dw",
+                    "bestand": 3,
+                    "standort": "Raum 102",
+                    "drucktechnik": "Laser",
+                    "papierformat": "A4",
+                    "anschluss": "WLAN+USB"
+                },
+                {
+                    "id": 25,
+                    "bezeichnung": "Epson WorkForce Pro WF-C5790",
+                    "bestand": 1,
+                    "standort": "Raum 102",
+                    "drucktechnik": "Tintenstrahl",
+                    "papierformat": "A3",
+                    "anschluss": "LAN+WLAN"
+                },
+                {
+                    "id": 26,
+                    "bezeichnung": "Ricoh SP 230DNw",
+                    "bestand": 1,
+                    "standort": "Sekretariat",
+                    "drucktechnik": "Laser",
+                    "papierformat": "A4",
+                    "anschluss": "LAN+WLAN"
+                },
+                {
+                    "id": 27,
+                    "bezeichnung": "Xerox VersaLink B400",
+                    "bestand": 3,
+                    "standort": "Raum 102",
+                    "drucktechnik": "Laser",
+                    "papierformat": "A4",
+                    "anschluss": "LAN+USB"
+                },
+                {
+                    "id": 28,
+                    "bezeichnung": "Lexmark MS431dn",
+                    "bestand": 1,
+                    "standort": "Verwaltungsflur",
+                    "drucktechnik": "Laser",
+                    "papierformat": "A4",
+                    "anschluss": "LAN+USB"
+                },
+                {
+                    "id": 29,
+                    "bezeichnung": "Brother MFC-L3770CDW",
+                    "bestand": 1,
+                    "standort": "Lehrerzimmer",
+                    "drucktechnik": "Laser",
+                    "papierformat": "A4",
+                    "anschluss": "LAN+WLAN+USB"
+                },
+                {
+                    "id": 30,
+                    "bezeichnung": "HP Color LaserJet Pro M479fdw",
+                    "bestand": 3,
+                    "standort": "Raum 204 (Informatik)",
+                    "drucktechnik": "Laser",
+                    "papierformat": "A4",
+                    "anschluss": "LAN+WLAN"
+                },
+                {
+                    "id": 31,
+                    "bezeichnung": "HP LaserJet Pro M404dn",
+                    "bestand": 2,
+                    "standort": "Raum 102",
+                    "drucktechnik": "Laser",
+                    "papierformat": "A4",
+                    "anschluss": "LAN+USB"
+                },
+                {
+                    "id": 32,
+                    "bezeichnung": "Brother HL-L2350DW",
+                    "bestand": 1,
+                    "standort": "Lager Nord",
+                    "drucktechnik": "Laser",
+                    "papierformat": "A4",
+                    "anschluss": "WLAN+USB"
+                },
+                {
+                    "id": 33,
+                    "bezeichnung": "Kyocera ECOSYS P2040dn",
+                    "bestand": 2,
+                    "standort": "Raum 102",
+                    "drucktechnik": "Laser",
+                    "papierformat": "A4",
+                    "anschluss": "LAN+USB"
+                },
+                {
+                    "id": 34,
+                    "bezeichnung": "Canon i-SENSYS LBP223dw",
+                    "bestand": 1,
+                    "standort": "Verwaltungsflur",
+                    "drucktechnik": "Laser",
+                    "papierformat": "A4",
+                    "anschluss": "WLAN+USB"
+                },
+                {
+                    "id": 35,
+                    "bezeichnung": "Epson WorkForce Pro WF-C5790",
+                    "bestand": 1,
+                    "standort": "Bibliothek",
+                    "drucktechnik": "Tintenstrahl",
+                    "papierformat": "A3",
+                    "anschluss": "LAN+WLAN"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Tablet",
+            "datei": "tablet.csv",
+            "felder": [
+                "seriennummer",
+                "betriebssystem",
+                "speicher"
+            ],
+            "geraete": [
+                {
+                    "id": 1,
+                    "bezeichnung": "Apple iPad (9. Generation)",
+                    "bestand": 1,
+                    "standort": "Raum 203",
+                    "seriennummer": "",
+                    "betriebssystem": "iPadOS 16",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 2,
+                    "bezeichnung": "Apple iPad Air (5. Generation)",
+                    "bestand": 4,
+                    "standort": "Konferenzraum",
+                    "seriennummer": "",
+                    "betriebssystem": "iPadOS 16",
+                    "speicher": "256 GB"
+                },
+                {
+                    "id": 3,
+                    "bezeichnung": "Samsung Galaxy Tab A8",
+                    "bestand": 1,
+                    "standort": "Raum 105",
+                    "seriennummer": "TAB-101",
+                    "betriebssystem": "Android 12",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 4,
+                    "bezeichnung": "Samsung Galaxy Tab S6 Lite",
+                    "bestand": 6,
+                    "standort": "Sekretariat",
+                    "seriennummer": "",
+                    "betriebssystem": "Android 12",
+                    "speicher": "128 GB"
+                },
+                {
+                    "id": 5,
+                    "bezeichnung": "Lenovo Tab M10 (3. Gen)",
+                    "bestand": 6,
+                    "standort": "Chemieraum",
+                    "seriennummer": "",
+                    "betriebssystem": "Android 11",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 6,
+                    "bezeichnung": "Microsoft Surface Go 3",
+                    "bestand": 1,
+                    "standort": "Raum 204 (Informatik)",
+                    "seriennummer": "TAB-102",
+                    "betriebssystem": "Windows 11",
+                    "speicher": "128 GB"
+                },
+                {
+                    "id": 7,
+                    "bezeichnung": "Huawei MatePad 11",
+                    "bestand": 3,
+                    "standort": "Lager; Nord",
+                    "seriennummer": "",
+                    "betriebssystem": "HarmonyOS 2",
+                    "speicher": "128 GB"
+                },
+                {
+                    "id": 8,
+                    "bezeichnung": "Apple iPad (10. Generation)",
+                    "bestand": 2,
+                    "standort": "Chemieraum",
+                    "seriennummer": "",
+                    "betriebssystem": "iPadOS 16",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 9,
+                    "bezeichnung": "Apple iPad (9. Generation)",
+                    "bestand": 2,
+                    "standort": "Bibliothek",
+                    "seriennummer": "",
+                    "betriebssystem": "iPadOS 16",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 10,
+                    "bezeichnung": "Apple iPad Air (5. Generation)",
+                    "bestand": 6,
+                    "standort": "Raum 105",
+                    "seriennummer": "",
+                    "betriebssystem": "iPadOS 16",
+                    "speicher": "256 GB"
+                },
+                {
+                    "id": 11,
+                    "bezeichnung": "Samsung Galaxy Tab A8",
+                    "bestand": 4,
+                    "standort": "Raum 103",
+                    "seriennummer": "",
+                    "betriebssystem": "Android 12",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 12,
+                    "bezeichnung": "Samsung Galaxy Tab S6 Lite",
+                    "bestand": 10,
+                    "standort": "Aula",
+                    "seriennummer": "",
+                    "betriebssystem": "Android 12",
+                    "speicher": "128 GB"
+                },
+                {
+                    "id": 13,
+                    "bezeichnung": "Lenovo Tab M10 (3. Gen)",
+                    "bestand": 1,
+                    "standort": "Sekretariat",
+                    "seriennummer": "TAB-103",
+                    "betriebssystem": "Android 11",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 14,
+                    "bezeichnung": "Microsoft Surface Go 3",
+                    "bestand": 10,
+                    "standort": "Lehrerzimmer",
+                    "seriennummer": "",
+                    "betriebssystem": "Windows 11",
+                    "speicher": "128 GB"
+                },
+                {
+                    "id": 15,
+                    "bezeichnung": "Huawei MatePad 11",
+                    "bestand": 1,
+                    "standort": "Aula",
+                    "seriennummer": "TAB-104",
+                    "betriebssystem": "HarmonyOS 2",
+                    "speicher": "128 GB"
+                },
+                {
+                    "id": 16,
+                    "bezeichnung": "Apple iPad (10. Generation)",
+                    "bestand": 1,
+                    "standort": "Raum 205",
+                    "seriennummer": "TAB-105",
+                    "betriebssystem": "iPadOS 16",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 17,
+                    "bezeichnung": "Apple iPad (9. Generation)",
+                    "bestand": 1,
+                    "standort": "Raum 105",
+                    "seriennummer": "TAB-106",
+                    "betriebssystem": "iPadOS 16",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 18,
+                    "bezeichnung": "Apple iPad Air (5. Generation)",
+                    "bestand": 15,
+                    "standort": "Lager Nord",
+                    "seriennummer": "",
+                    "betriebssystem": "iPadOS 16",
+                    "speicher": "256 GB"
+                },
+                {
+                    "id": 19,
+                    "bezeichnung": "Samsung Galaxy Tab A8",
+                    "bestand": 1,
+                    "standort": "Lager Nord",
+                    "seriennummer": "TAB-107",
+                    "betriebssystem": "Android 12",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 20,
+                    "bezeichnung": "Samsung Galaxy Tab S6 Lite",
+                    "bestand": 1,
+                    "standort": "Raum 205",
+                    "seriennummer": "TAB-108",
+                    "betriebssystem": "Android 12",
+                    "speicher": "128 GB"
+                },
+                {
+                    "id": 21,
+                    "bezeichnung": "Lenovo Tab M10 (3. Gen)",
+                    "bestand": 1,
+                    "standort": "Musikraum",
+                    "seriennummer": "TAB-109",
+                    "betriebssystem": "Android 11",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 22,
+                    "bezeichnung": "Microsoft Surface Go 3",
+                    "bestand": 2,
+                    "standort": "Lager; Nord",
+                    "seriennummer": "",
+                    "betriebssystem": "Windows 11",
+                    "speicher": "128 GB"
+                },
+                {
+                    "id": 23,
+                    "bezeichnung": "Huawei MatePad 11",
+                    "bestand": 1,
+                    "standort": "Sporthalle",
+                    "seriennummer": "TAB-110",
+                    "betriebssystem": "HarmonyOS 2",
+                    "speicher": "128 GB"
+                },
+                {
+                    "id": 24,
+                    "bezeichnung": "Apple iPad (10. Generation)",
+                    "bestand": 2,
+                    "standort": "Foyer",
+                    "seriennummer": "",
+                    "betriebssystem": "iPadOS 16",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 25,
+                    "bezeichnung": "Apple iPad (9. Generation)",
+                    "bestand": 1,
+                    "standort": "Raum 105",
+                    "seriennummer": "TAB-111",
+                    "betriebssystem": "iPadOS 16",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 26,
+                    "bezeichnung": "Apple iPad Air (5. Generation)",
+                    "bestand": 1,
+                    "standort": "Sekretariat",
+                    "seriennummer": "TAB-112",
+                    "betriebssystem": "iPadOS 16",
+                    "speicher": "256 GB"
+                },
+                {
+                    "id": 27,
+                    "bezeichnung": "Samsung Galaxy Tab A8",
+                    "bestand": 1,
+                    "standort": "Sekretariat",
+                    "seriennummer": "TAB-113",
+                    "betriebssystem": "Android 12",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 28,
+                    "bezeichnung": "Samsung Galaxy Tab S6 Lite",
+                    "bestand": 1,
+                    "standort": "Raum 105",
+                    "seriennummer": "TAB-114",
+                    "betriebssystem": "Android 12",
+                    "speicher": "128 GB"
+                },
+                {
+                    "id": 29,
+                    "bezeichnung": "Lenovo Tab M10 (3. Gen)",
+                    "bestand": 1,
+                    "standort": "Lager; Nord",
+                    "seriennummer": "TAB-115",
+                    "betriebssystem": "Android 11",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 30,
+                    "bezeichnung": "Microsoft Surface Go 3",
+                    "bestand": 1,
+                    "standort": "Raum 202",
+                    "seriennummer": "TAB-116",
+                    "betriebssystem": "Windows 11",
+                    "speicher": "128 GB"
+                },
+                {
+                    "id": 31,
+                    "bezeichnung": "Huawei MatePad 11",
+                    "bestand": 10,
+                    "standort": "Aula",
+                    "seriennummer": "",
+                    "betriebssystem": "HarmonyOS 2",
+                    "speicher": "128 GB"
+                },
+                {
+                    "id": 32,
+                    "bezeichnung": "Apple iPad (10. Generation)",
+                    "bestand": 15,
+                    "standort": "Bibliothek",
+                    "seriennummer": "",
+                    "betriebssystem": "iPadOS 16",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 33,
+                    "bezeichnung": "Apple iPad (9. Generation)",
+                    "bestand": 1,
+                    "standort": "Lager Nord",
+                    "seriennummer": "TAB-117",
+                    "betriebssystem": "iPadOS 16",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 34,
+                    "bezeichnung": "Apple iPad Air (5. Generation)",
+                    "bestand": 4,
+                    "standort": "Chemieraum",
+                    "seriennummer": "",
+                    "betriebssystem": "iPadOS 16",
+                    "speicher": "256 GB"
+                },
+                {
+                    "id": 35,
+                    "bezeichnung": "Samsung Galaxy Tab A8",
+                    "bestand": 1,
+                    "standort": "Lager Nord",
+                    "seriennummer": "TAB-118",
+                    "betriebssystem": "Android 12",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 36,
+                    "bezeichnung": "Samsung Galaxy Tab S6 Lite",
+                    "bestand": 1,
+                    "standort": "Werkstatt",
+                    "seriennummer": "TAB-119",
+                    "betriebssystem": "Android 12",
+                    "speicher": "128 GB"
+                },
+                {
+                    "id": 37,
+                    "bezeichnung": "Lenovo Tab M10 (3. Gen)",
+                    "bestand": 2,
+                    "standort": "Lehrerzimmer",
+                    "seriennummer": "",
+                    "betriebssystem": "Android 11",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 38,
+                    "bezeichnung": "Microsoft Surface Go 3",
+                    "bestand": 2,
+                    "standort": "Musikraum",
+                    "seriennummer": "",
+                    "betriebssystem": "Windows 11",
+                    "speicher": "128 GB"
+                },
+                {
+                    "id": 39,
+                    "bezeichnung": "Huawei MatePad 11",
+                    "bestand": 1,
+                    "standort": "Raum 205",
+                    "seriennummer": "TAB-120",
+                    "betriebssystem": "HarmonyOS 2",
+                    "speicher": "128 GB"
+                },
+                {
+                    "id": 40,
+                    "bezeichnung": "Apple iPad (10. Generation)",
+                    "bestand": 1,
+                    "standort": "Raum 104",
+                    "seriennummer": "TAB-121",
+                    "betriebssystem": "iPadOS 16",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 41,
+                    "bezeichnung": "Apple iPad (9. Generation)",
+                    "bestand": 2,
+                    "standort": "Konferenzraum",
+                    "seriennummer": "",
+                    "betriebssystem": "iPadOS 16",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 42,
+                    "bezeichnung": "Apple iPad Air (5. Generation)",
+                    "bestand": 2,
+                    "standort": "Raum 201",
+                    "seriennummer": "",
+                    "betriebssystem": "iPadOS 16",
+                    "speicher": "256 GB"
+                },
+                {
+                    "id": 43,
+                    "bezeichnung": "Samsung Galaxy Tab A8",
+                    "bestand": 4,
+                    "standort": "Raum 101",
+                    "seriennummer": "",
+                    "betriebssystem": "Android 12",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 44,
+                    "bezeichnung": "Samsung Galaxy Tab S6 Lite",
+                    "bestand": 1,
+                    "standort": "Raum 101",
+                    "seriennummer": "TAB-122",
+                    "betriebssystem": "Android 12",
+                    "speicher": "128 GB"
+                },
+                {
+                    "id": 45,
+                    "bezeichnung": "Lenovo Tab M10 (3. Gen)",
+                    "bestand": 1,
+                    "standort": "Lehrerzimmer",
+                    "seriennummer": "TAB-123",
+                    "betriebssystem": "Android 11",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 46,
+                    "bezeichnung": "Microsoft Surface Go 3",
+                    "bestand": 3,
+                    "standort": "Lehrerzimmer",
+                    "seriennummer": "",
+                    "betriebssystem": "Windows 11",
+                    "speicher": "128 GB"
+                },
+                {
+                    "id": 47,
+                    "bezeichnung": "Huawei MatePad 11",
+                    "bestand": 4,
+                    "standort": "Raum 103",
+                    "seriennummer": "",
+                    "betriebssystem": "HarmonyOS 2",
+                    "speicher": "128 GB"
+                },
+                {
+                    "id": 48,
+                    "bezeichnung": "Apple iPad (10. Generation)",
+                    "bestand": 2,
+                    "standort": "Raum 201",
+                    "seriennummer": "",
+                    "betriebssystem": "iPadOS 16",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 49,
+                    "bezeichnung": "Apple iPad (9. Generation)",
+                    "bestand": 1,
+                    "standort": "Raum 105",
+                    "seriennummer": "TAB-124",
+                    "betriebssystem": "iPadOS 16",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 50,
+                    "bezeichnung": "Apple iPad Air (5. Generation)",
+                    "bestand": 1,
+                    "standort": "Medienraum",
+                    "seriennummer": "TAB-125",
+                    "betriebssystem": "iPadOS 16",
+                    "speicher": "256 GB"
+                },
+                {
+                    "id": 51,
+                    "bezeichnung": "Samsung Galaxy Tab A8",
+                    "bestand": 1,
+                    "standort": "Raum 203",
+                    "seriennummer": "TAB-126",
+                    "betriebssystem": "Android 12",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 52,
+                    "bezeichnung": "Samsung Galaxy Tab S6 Lite",
+                    "bestand": 1,
+                    "standort": "Raum 105",
+                    "seriennummer": "TAB-127",
+                    "betriebssystem": "Android 12",
+                    "speicher": "128 GB"
+                },
+                {
+                    "id": 53,
+                    "bezeichnung": "Lenovo Tab M10 (3. Gen)",
+                    "bestand": 1,
+                    "standort": "Konferenzraum",
+                    "seriennummer": "TAB-128",
+                    "betriebssystem": "Android 11",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 54,
+                    "bezeichnung": "Microsoft Surface Go 3",
+                    "bestand": 1,
+                    "standort": "Chemieraum",
+                    "seriennummer": "TAB-129",
+                    "betriebssystem": "Windows 11",
+                    "speicher": "128 GB"
+                },
+                {
+                    "id": 55,
+                    "bezeichnung": "Huawei MatePad 11",
+                    "bestand": 1,
+                    "standort": "Raum 203",
+                    "seriennummer": "TAB-130",
+                    "betriebssystem": "HarmonyOS 2",
+                    "speicher": "128 GB"
+                },
+                {
+                    "id": 56,
+                    "bezeichnung": "Apple iPad (10. Generation)",
+                    "bestand": 1,
+                    "standort": "Medienraum",
+                    "seriennummer": "",
+                    "betriebssystem": "iPadOS 16",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 57,
+                    "bezeichnung": "Apple iPad (9. Generation)",
+                    "bestand": 2,
+                    "standort": "Raum 205",
+                    "seriennummer": "",
+                    "betriebssystem": "iPadOS 16",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 58,
+                    "bezeichnung": "Apple iPad Air (5. Generation)",
+                    "bestand": 4,
+                    "standort": "Raum 203",
+                    "seriennummer": "",
+                    "betriebssystem": "iPadOS 16",
+                    "speicher": "256 GB"
+                },
+                {
+                    "id": 59,
+                    "bezeichnung": "Samsung Galaxy Tab A8",
+                    "bestand": 1,
+                    "standort": "Bibliothek",
+                    "seriennummer": "TAB-131",
+                    "betriebssystem": "Android 12",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 60,
+                    "bezeichnung": "Samsung Galaxy Tab S6 Lite",
+                    "bestand": 1,
+                    "standort": "Bibliothek",
+                    "seriennummer": "TAB-132",
+                    "betriebssystem": "Android 12",
+                    "speicher": "128 GB"
+                },
+                {
+                    "id": 61,
+                    "bezeichnung": "Lenovo Tab M10 (3. Gen)",
+                    "bestand": 2,
+                    "standort": "Medienraum",
+                    "seriennummer": "",
+                    "betriebssystem": "Android 11",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 62,
+                    "bezeichnung": "Microsoft Surface Go 3",
+                    "bestand": 2,
+                    "standort": "Raum 203",
+                    "seriennummer": "",
+                    "betriebssystem": "Windows 11",
+                    "speicher": "128 GB"
+                },
+                {
+                    "id": 63,
+                    "bezeichnung": "Huawei MatePad 11",
+                    "bestand": 4,
+                    "standort": "Medienraum",
+                    "seriennummer": "",
+                    "betriebssystem": "HarmonyOS 2",
+                    "speicher": "128 GB"
+                },
+                {
+                    "id": 64,
+                    "bezeichnung": "Apple iPad (10. Generation)",
+                    "bestand": 10,
+                    "standort": "Raum 102",
+                    "seriennummer": "",
+                    "betriebssystem": "iPadOS 16",
+                    "speicher": "64 GB"
+                },
+                {
+                    "id": 65,
+                    "bezeichnung": "Apple iPad (9. Generation)",
+                    "bestand": 3,
+                    "standort": "Raum 104",
+                    "seriennummer": "",
+                    "betriebssystem": "iPadOS 16",
+                    "speicher": "64 GB"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Dokumentenkamera",
+            "datei": "dokumentenkamera.csv",
+            "felder": [
+                "aufloesung",
+                "anschluss",
+                "optischer_zoom"
+            ],
+            "geraete": [
+                {
+                    "id": 1,
+                    "bezeichnung": "AVerVision F50",
+                    "bestand": 2,
+                    "standort": "Medienraum",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+USB",
+                    "optischer_zoom": "8x"
+                },
+                {
+                    "id": 2,
+                    "bezeichnung": "AVerVision M70",
+                    "bestand": 1,
+                    "standort": "Konferenzraum",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+USB",
+                    "optischer_zoom": "16x"
+                },
+                {
+                    "id": 3,
+                    "bezeichnung": "Elmo MX-1",
+                    "bestand": 1,
+                    "standort": "Musikraum",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB",
+                    "optischer_zoom": "16x"
+                },
+                {
+                    "id": 4,
+                    "bezeichnung": "Elmo TT-12",
+                    "bestand": 1,
+                    "standort": "Raum 201",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA",
+                    "optischer_zoom": "12x"
+                },
+                {
+                    "id": 5,
+                    "bezeichnung": "Epson DC-13",
+                    "bestand": 1,
+                    "standort": "Chemieraum",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+USB",
+                    "optischer_zoom": "10x"
+                },
+                {
+                    "id": 6,
+                    "bezeichnung": "Lumens DC125",
+                    "bestand": 2,
+                    "standort": "Konferenzraum",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA",
+                    "optischer_zoom": "12x"
+                },
+                {
+                    "id": 7,
+                    "bezeichnung": "IPEVO VZ-R",
+                    "bestand": 1,
+                    "standort": "Raum 201",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "USB",
+                    "optischer_zoom": "8x"
+                },
+                {
+                    "id": 8,
+                    "bezeichnung": "WolfVision VZ-3neo",
+                    "bestand": 2,
+                    "standort": "Raum 101",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+USB",
+                    "optischer_zoom": "4x"
+                },
+                {
+                    "id": 9,
+                    "bezeichnung": "AVerVision F50",
+                    "bestand": 1,
+                    "standort": "Raum 202",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+USB",
+                    "optischer_zoom": "8x"
+                },
+                {
+                    "id": 10,
+                    "bezeichnung": "AVerVision M70",
+                    "bestand": 1,
+                    "standort": "Lager Nord",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+USB",
+                    "optischer_zoom": "16x"
+                },
+                {
+                    "id": 11,
+                    "bezeichnung": "Elmo MX-1",
+                    "bestand": 2,
+                    "standort": "Raum 201",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB",
+                    "optischer_zoom": "16x"
+                },
+                {
+                    "id": 12,
+                    "bezeichnung": "Elmo TT-12",
+                    "bestand": 3,
+                    "standort": "Raum 101",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA",
+                    "optischer_zoom": "12x"
+                },
+                {
+                    "id": 13,
+                    "bezeichnung": "Epson DC-13",
+                    "bestand": 3,
+                    "standort": "Musikraum",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+USB",
+                    "optischer_zoom": "10x"
+                },
+                {
+                    "id": 14,
+                    "bezeichnung": "Lumens DC125",
+                    "bestand": 1,
+                    "standort": "Raum 101",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA",
+                    "optischer_zoom": "12x"
+                },
+                {
+                    "id": 15,
+                    "bezeichnung": "IPEVO VZ-R",
+                    "bestand": 1,
+                    "standort": "Raum 101",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "USB",
+                    "optischer_zoom": "8x"
+                },
+                {
+                    "id": 16,
+                    "bezeichnung": "WolfVision VZ-3neo",
+                    "bestand": 1,
+                    "standort": "Chemieraum",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+USB",
+                    "optischer_zoom": "4x"
+                },
+                {
+                    "id": 17,
+                    "bezeichnung": "AVerVision F50",
+                    "bestand": 1,
+                    "standort": "Lager Nord",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+USB",
+                    "optischer_zoom": "8x"
+                },
+                {
+                    "id": 18,
+                    "bezeichnung": "AVerVision M70",
+                    "bestand": 2,
+                    "standort": "Raum 103",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+USB",
+                    "optischer_zoom": "16x"
+                },
+                {
+                    "id": 19,
+                    "bezeichnung": "Elmo MX-1",
+                    "bestand": 1,
+                    "standort": "Sporthalle",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB",
+                    "optischer_zoom": "16x"
+                },
+                {
+                    "id": 20,
+                    "bezeichnung": "Elmo TT-12",
+                    "bestand": 1,
+                    "standort": "Aula",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA",
+                    "optischer_zoom": "12x"
+                },
+                {
+                    "id": 21,
+                    "bezeichnung": "Epson DC-13",
+                    "bestand": 1,
+                    "standort": "Raum 101",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+USB",
+                    "optischer_zoom": "10x"
+                },
+                {
+                    "id": 22,
+                    "bezeichnung": "Lumens DC125",
+                    "bestand": 1,
+                    "standort": "Foyer",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA",
+                    "optischer_zoom": "12x"
+                },
+                {
+                    "id": 23,
+                    "bezeichnung": "IPEVO VZ-R",
+                    "bestand": 2,
+                    "standort": "Lager Nord",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "USB",
+                    "optischer_zoom": "8x"
+                },
+                {
+                    "id": 24,
+                    "bezeichnung": "WolfVision VZ-3neo",
+                    "bestand": 1,
+                    "standort": "Raum 101",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+USB",
+                    "optischer_zoom": "4x"
+                },
+                {
+                    "id": 25,
+                    "bezeichnung": "AVerVision F50",
+                    "bestand": 2,
+                    "standort": "Lager Nord",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+USB",
+                    "optischer_zoom": "8x"
+                },
+                {
+                    "id": 26,
+                    "bezeichnung": "AVerVision M70",
+                    "bestand": 1,
+                    "standort": "Raum 201",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+USB",
+                    "optischer_zoom": "16x"
+                },
+                {
+                    "id": 27,
+                    "bezeichnung": "Elmo MX-1",
+                    "bestand": 2,
+                    "standort": "Raum 102",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB",
+                    "optischer_zoom": "16x"
+                },
+                {
+                    "id": 28,
+                    "bezeichnung": "Elmo TT-12",
+                    "bestand": 1,
+                    "standort": "Raum 202",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA",
+                    "optischer_zoom": "12x"
+                },
+                {
+                    "id": 29,
+                    "bezeichnung": "Epson DC-13",
+                    "bestand": 1,
+                    "standort": "Raum 104",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+USB",
+                    "optischer_zoom": "10x"
+                },
+                {
+                    "id": 30,
+                    "bezeichnung": "Lumens DC125",
+                    "bestand": 2,
+                    "standort": "Foyer",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+VGA",
+                    "optischer_zoom": "12x"
+                },
+                {
+                    "id": 31,
+                    "bezeichnung": "IPEVO VZ-R",
+                    "bestand": 1,
+                    "standort": "Raum 102",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "USB",
+                    "optischer_zoom": "8x"
+                },
+                {
+                    "id": 32,
+                    "bezeichnung": "WolfVision VZ-3neo",
+                    "bestand": 2,
+                    "standort": "Raum 101",
+                    "aufloesung": "1920x1080",
+                    "anschluss": "HDMI+USB",
+                    "optischer_zoom": "4x"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Interaktives Display",
+            "datei": "interaktives_display.csv",
+            "felder": [
+                "zoll",
+                "aufloesung",
+                "anschluss"
+            ],
+            "geraete": [
+                {
+                    "id": 1,
+                    "bezeichnung": "Samsung Flip 2",
+                    "bestand": 2,
+                    "standort": "Raum 202",
+                    "zoll": "55",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 2,
+                    "bezeichnung": "Promethean ActivPanel 9",
+                    "bestand": 2,
+                    "standort": "Raum 104",
+                    "zoll": "65",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 3,
+                    "bezeichnung": "ViewSonic ViewBoard IFP6550",
+                    "bestand": 1,
+                    "standort": "Chemieraum",
+                    "zoll": "65",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 4,
+                    "bezeichnung": "BenQ Board RP6502",
+                    "bestand": 1,
+                    "standort": "Raum 201",
+                    "zoll": "65",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 5,
+                    "bezeichnung": "SMART Board MX265",
+                    "bestand": 1,
+                    "standort": "Sporthalle",
+                    "zoll": "65",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 6,
+                    "bezeichnung": "Clevertouch Impact Plus",
+                    "bestand": 1,
+                    "standort": "Raum 103",
+                    "zoll": "75",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 7,
+                    "bezeichnung": "Legamaster e-Screen",
+                    "bestand": 1,
+                    "standort": "Foyer",
+                    "zoll": "65",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB"
+                },
+                {
+                    "id": 8,
+                    "bezeichnung": "Prowise ProLine",
+                    "bestand": 1,
+                    "standort": "Chemieraum",
+                    "zoll": "75",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 9,
+                    "bezeichnung": "Samsung Flip 2",
+                    "bestand": 1,
+                    "standort": "Aula",
+                    "zoll": "55",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 10,
+                    "bezeichnung": "Promethean ActivPanel 9",
+                    "bestand": 1,
+                    "standort": "Raum 101",
+                    "zoll": "65",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 11,
+                    "bezeichnung": "ViewSonic ViewBoard IFP6550",
+                    "bestand": 1,
+                    "standort": "Raum 104",
+                    "zoll": "65",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 12,
+                    "bezeichnung": "BenQ Board RP6502",
+                    "bestand": 1,
+                    "standort": "Foyer",
+                    "zoll": "65",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 13,
+                    "bezeichnung": "SMART Board MX265",
+                    "bestand": 1,
+                    "standort": "Raum 202",
+                    "zoll": "65",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 14,
+                    "bezeichnung": "Clevertouch Impact Plus",
+                    "bestand": 1,
+                    "standort": "Chemieraum",
+                    "zoll": "75",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 15,
+                    "bezeichnung": "Legamaster e-Screen",
+                    "bestand": 1,
+                    "standort": "Raum 103",
+                    "zoll": "65",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB"
+                },
+                {
+                    "id": 16,
+                    "bezeichnung": "Prowise ProLine",
+                    "bestand": 1,
+                    "standort": "Konferenzraum",
+                    "zoll": "75",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 17,
+                    "bezeichnung": "Samsung Flip 2",
+                    "bestand": 1,
+                    "standort": "Konferenzraum",
+                    "zoll": "55",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 18,
+                    "bezeichnung": "Promethean ActivPanel 9",
+                    "bestand": 1,
+                    "standort": "Medienraum",
+                    "zoll": "65",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 19,
+                    "bezeichnung": "ViewSonic ViewBoard IFP6550",
+                    "bestand": 1,
+                    "standort": "Sporthalle",
+                    "zoll": "65",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 20,
+                    "bezeichnung": "BenQ Board RP6502",
+                    "bestand": 2,
+                    "standort": "Aula",
+                    "zoll": "65",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 21,
+                    "bezeichnung": "SMART Board MX265",
+                    "bestand": 2,
+                    "standort": "Raum 201",
+                    "zoll": "65",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 22,
+                    "bezeichnung": "Clevertouch Impact Plus",
+                    "bestand": 2,
+                    "standort": "Raum 101",
+                    "zoll": "75",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 23,
+                    "bezeichnung": "Legamaster e-Screen",
+                    "bestand": 1,
+                    "standort": "Raum 202",
+                    "zoll": "65",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB"
+                },
+                {
+                    "id": 24,
+                    "bezeichnung": "Prowise ProLine",
+                    "bestand": 1,
+                    "standort": "Chemieraum",
+                    "zoll": "75",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 25,
+                    "bezeichnung": "Samsung Flip 2",
+                    "bestand": 2,
+                    "standort": "Raum 101",
+                    "zoll": "55",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 26,
+                    "bezeichnung": "Promethean ActivPanel 9",
+                    "bestand": 1,
+                    "standort": "Chemieraum",
+                    "zoll": "65",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 27,
+                    "bezeichnung": "ViewSonic ViewBoard IFP6550",
+                    "bestand": 1,
+                    "standort": "Raum 101",
+                    "zoll": "65",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 28,
+                    "bezeichnung": "BenQ Board RP6502",
+                    "bestand": 1,
+                    "standort": "Sporthalle",
+                    "zoll": "65",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 29,
+                    "bezeichnung": "SMART Board MX265",
+                    "bestand": 1,
+                    "standort": "Sporthalle",
+                    "zoll": "65",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 30,
+                    "bezeichnung": "Clevertouch Impact Plus",
+                    "bestand": 2,
+                    "standort": "Lager Nord",
+                    "zoll": "75",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 31,
+                    "bezeichnung": "Legamaster e-Screen",
+                    "bestand": 1,
+                    "standort": "Chemieraum",
+                    "zoll": "65",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB"
+                },
+                {
+                    "id": 32,
+                    "bezeichnung": "Prowise ProLine",
+                    "bestand": 2,
+                    "standort": "Lager Nord",
+                    "zoll": "75",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 33,
+                    "bezeichnung": "Samsung Flip 2",
+                    "bestand": 2,
+                    "standort": "Konferenzraum",
+                    "zoll": "55",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 34,
+                    "bezeichnung": "Promethean ActivPanel 9",
+                    "bestand": 2,
+                    "standort": "Aula",
+                    "zoll": "65",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 35,
+                    "bezeichnung": "ViewSonic ViewBoard IFP6550",
+                    "bestand": 1,
+                    "standort": "Raum 201",
+                    "zoll": "65",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 36,
+                    "bezeichnung": "BenQ Board RP6502",
+                    "bestand": 1,
+                    "standort": "Raum 104",
+                    "zoll": "65",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 37,
+                    "bezeichnung": "SMART Board MX265",
+                    "bestand": 2,
+                    "standort": "Raum 102",
+                    "zoll": "65",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                },
+                {
+                    "id": 38,
+                    "bezeichnung": "Clevertouch Impact Plus",
+                    "bestand": 1,
+                    "standort": "Raum 101",
+                    "zoll": "75",
+                    "aufloesung": "3840x2160",
+                    "anschluss": "HDMI+USB-C"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Netzwerk-Switch",
+            "datei": "netzwerk_switch.csv",
+            "felder": [
+                "portanzahl",
+                "geschwindigkeit",
+                "verwaltet"
+            ],
+            "geraete": [
+                {
+                    "id": 1,
+                    "bezeichnung": "Cisco Catalyst 9200-24T",
+                    "bestand": 1,
+                    "standort": "Raum 204 (Informatik)",
+                    "portanzahl": "24",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "ja"
+                },
+                {
+                    "id": 2,
+                    "bezeichnung": "HPE Aruba 2530-24G",
+                    "bestand": 2,
+                    "standort": "Verwaltungsflur",
+                    "portanzahl": "24",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "ja"
+                },
+                {
+                    "id": 3,
+                    "bezeichnung": "Netgear GS724T",
+                    "bestand": 1,
+                    "standort": "Netzwerkschrank Gebäude A",
+                    "portanzahl": "24",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "ja"
+                },
+                {
+                    "id": 4,
+                    "bezeichnung": "TP-Link TL-SG1024",
+                    "bestand": 2,
+                    "standort": "Lager Nord",
+                    "portanzahl": "24",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "nein"
+                },
+                {
+                    "id": 5,
+                    "bezeichnung": "D-Link DGS-1210-24",
+                    "bestand": 2,
+                    "standort": "Lager Nord",
+                    "portanzahl": "24",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "ja"
+                },
+                {
+                    "id": 6,
+                    "bezeichnung": "Ubiquiti UniFi Switch 24",
+                    "bestand": 1,
+                    "standort": "Netzwerkschrank Gebäude B",
+                    "portanzahl": "24",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "ja"
+                },
+                {
+                    "id": 7,
+                    "bezeichnung": "Zyxel GS1900-24E",
+                    "bestand": 2,
+                    "standort": "Serverraum",
+                    "portanzahl": "24",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "ja"
+                },
+                {
+                    "id": 8,
+                    "bezeichnung": "MikroTik CRS326-24G",
+                    "bestand": 2,
+                    "standort": "Lager Nord",
+                    "portanzahl": "24",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "ja"
+                },
+                {
+                    "id": 9,
+                    "bezeichnung": "Cisco Catalyst 1000-48T",
+                    "bestand": 1,
+                    "standort": "Netzwerkschrank Gebäude B",
+                    "portanzahl": "48",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "ja"
+                },
+                {
+                    "id": 10,
+                    "bezeichnung": "Cisco Catalyst 9200-24T",
+                    "bestand": 2,
+                    "standort": "Serverraum",
+                    "portanzahl": "24",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "ja"
+                },
+                {
+                    "id": 11,
+                    "bezeichnung": "HPE Aruba 2530-24G",
+                    "bestand": 1,
+                    "standort": "Netzwerkschrank Gebäude A",
+                    "portanzahl": "24",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "ja"
+                },
+                {
+                    "id": 12,
+                    "bezeichnung": "Netgear GS724T",
+                    "bestand": 1,
+                    "standort": "Raum 204 (Informatik)",
+                    "portanzahl": "24",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "ja"
+                },
+                {
+                    "id": 13,
+                    "bezeichnung": "TP-Link TL-SG1024",
+                    "bestand": 2,
+                    "standort": "Netzwerkschrank Gebäude B",
+                    "portanzahl": "24",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "nein"
+                },
+                {
+                    "id": 14,
+                    "bezeichnung": "D-Link DGS-1210-24",
+                    "bestand": 1,
+                    "standort": "Netzwerkschrank Gebäude C",
+                    "portanzahl": "24",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "ja"
+                },
+                {
+                    "id": 15,
+                    "bezeichnung": "Ubiquiti UniFi Switch 24",
+                    "bestand": 1,
+                    "standort": "Netzwerkschrank Gebäude C",
+                    "portanzahl": "24",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "ja"
+                },
+                {
+                    "id": 16,
+                    "bezeichnung": "Zyxel GS1900-24E",
+                    "bestand": 2,
+                    "standort": "Aula",
+                    "portanzahl": "24",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "ja"
+                },
+                {
+                    "id": 17,
+                    "bezeichnung": "MikroTik CRS326-24G",
+                    "bestand": 1,
+                    "standort": "Verwaltungsflur",
+                    "portanzahl": "24",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "ja"
+                },
+                {
+                    "id": 18,
+                    "bezeichnung": "Cisco Catalyst 1000-48T",
+                    "bestand": 2,
+                    "standort": "Lager Nord",
+                    "portanzahl": "48",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "ja"
+                },
+                {
+                    "id": 19,
+                    "bezeichnung": "Cisco Catalyst 9200-24T",
+                    "bestand": 1,
+                    "standort": "Lager Nord",
+                    "portanzahl": "24",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "ja"
+                },
+                {
+                    "id": 20,
+                    "bezeichnung": "HPE Aruba 2530-24G",
+                    "bestand": 2,
+                    "standort": "Netzwerkschrank Gebäude A",
+                    "portanzahl": "24",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "ja"
+                },
+                {
+                    "id": 21,
+                    "bezeichnung": "Netgear GS724T",
+                    "bestand": 2,
+                    "standort": "Aula",
+                    "portanzahl": "24",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "ja"
+                },
+                {
+                    "id": 22,
+                    "bezeichnung": "TP-Link TL-SG1024",
+                    "bestand": 1,
+                    "standort": "Lager Nord",
+                    "portanzahl": "24",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "nein"
+                },
+                {
+                    "id": 23,
+                    "bezeichnung": "D-Link DGS-1210-24",
+                    "bestand": 1,
+                    "standort": "Aula",
+                    "portanzahl": "24",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "ja"
+                },
+                {
+                    "id": 24,
+                    "bezeichnung": "Ubiquiti UniFi Switch 24",
+                    "bestand": 1,
+                    "standort": "Netzwerkschrank Gebäude B",
+                    "portanzahl": "24",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "ja"
+                },
+                {
+                    "id": 25,
+                    "bezeichnung": "Zyxel GS1900-24E",
+                    "bestand": 2,
+                    "standort": "Netzwerkschrank Gebäude C",
+                    "portanzahl": "24",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "ja"
+                },
+                {
+                    "id": 26,
+                    "bezeichnung": "MikroTik CRS326-24G",
+                    "bestand": 1,
+                    "standort": "Raum 204 (Informatik)",
+                    "portanzahl": "24",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "ja"
+                },
+                {
+                    "id": 27,
+                    "bezeichnung": "Cisco Catalyst 1000-48T",
+                    "bestand": 1,
+                    "standort": "Netzwerkschrank Gebäude C",
+                    "portanzahl": "48",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "ja"
+                },
+                {
+                    "id": 28,
+                    "bezeichnung": "Cisco Catalyst 9200-24T",
+                    "bestand": 1,
+                    "standort": "Netzwerkschrank Gebäude B",
+                    "portanzahl": "24",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "ja"
+                },
+                {
+                    "id": 29,
+                    "bezeichnung": "HPE Aruba 2530-24G",
+                    "bestand": 1,
+                    "standort": "Netzwerkschrank Gebäude C",
+                    "portanzahl": "24",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "ja"
+                },
+                {
+                    "id": 30,
+                    "bezeichnung": "Netgear GS724T",
+                    "bestand": 1,
+                    "standort": "Netzwerkschrank Gebäude B",
+                    "portanzahl": "24",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "ja"
+                },
+                {
+                    "id": 31,
+                    "bezeichnung": "TP-Link TL-SG1024",
+                    "bestand": 1,
+                    "standort": "Aula",
+                    "portanzahl": "24",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "nein"
+                },
+                {
+                    "id": 32,
+                    "bezeichnung": "D-Link DGS-1210-24",
+                    "bestand": 2,
+                    "standort": "Netzwerkschrank Gebäude A",
+                    "portanzahl": "24",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "ja"
+                },
+                {
+                    "id": 33,
+                    "bezeichnung": "Ubiquiti UniFi Switch 24",
+                    "bestand": 1,
+                    "standort": "Netzwerkschrank Gebäude B",
+                    "portanzahl": "24",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "ja"
+                },
+                {
+                    "id": 34,
+                    "bezeichnung": "Zyxel GS1900-24E",
+                    "bestand": 2,
+                    "standort": "Netzwerkschrank Gebäude A",
+                    "portanzahl": "24",
+                    "geschwindigkeit": "1 Gbit\/s",
+                    "verwaltet": "ja"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "WLAN-Accesspoint",
+            "datei": "wlan_accesspoint.csv",
+            "felder": [
+                "standard",
+                "frequenz",
+                "poe"
+            ],
+            "geraete": [
+                {
+                    "id": 1,
+                    "bezeichnung": "Ubiquiti UniFi U6-LR",
+                    "bestand": 1,
+                    "standort": "Aula",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 2,
+                    "bezeichnung": "Aruba AP-505",
+                    "bestand": 1,
+                    "standort": "Serverraum",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 3,
+                    "bezeichnung": "Cisco Meraki MR36",
+                    "bestand": 1,
+                    "standort": "Netzwerkschrank Gebäude A",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 4,
+                    "bezeichnung": "TP-Link EAP245",
+                    "bestand": 1,
+                    "standort": "Netzwerkschrank Gebäude B",
+                    "standard": "Wi-Fi 5",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 5,
+                    "bezeichnung": "Netgear WAX214",
+                    "bestand": 2,
+                    "standort": "Raum 204 (Informatik)",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 6,
+                    "bezeichnung": "Zyxel NWA110AX",
+                    "bestand": 1,
+                    "standort": "Serverraum",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 7,
+                    "bezeichnung": "Ruckus R350",
+                    "bestand": 1,
+                    "standort": "Aula",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 8,
+                    "bezeichnung": "Ubiquiti UniFi U6-Pro",
+                    "bestand": 1,
+                    "standort": "Lager Nord",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 9,
+                    "bezeichnung": "TP-Link EAP225",
+                    "bestand": 1,
+                    "standort": "Raum 204 (Informatik)",
+                    "standard": "Wi-Fi 5",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 10,
+                    "bezeichnung": "Ubiquiti UniFi U6-LR",
+                    "bestand": 1,
+                    "standort": "Netzwerkschrank Gebäude B",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 11,
+                    "bezeichnung": "Aruba AP-505",
+                    "bestand": 2,
+                    "standort": "Serverraum",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 12,
+                    "bezeichnung": "Cisco Meraki MR36",
+                    "bestand": 1,
+                    "standort": "Verwaltungsflur",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 13,
+                    "bezeichnung": "TP-Link EAP245",
+                    "bestand": 1,
+                    "standort": "Netzwerkschrank Gebäude B",
+                    "standard": "Wi-Fi 5",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 14,
+                    "bezeichnung": "Netgear WAX214",
+                    "bestand": 1,
+                    "standort": "Verwaltungsflur",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 15,
+                    "bezeichnung": "Zyxel NWA110AX",
+                    "bestand": 1,
+                    "standort": "Lager Nord",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 16,
+                    "bezeichnung": "Ruckus R350",
+                    "bestand": 1,
+                    "standort": "Lager Nord",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 17,
+                    "bezeichnung": "Ubiquiti UniFi U6-Pro",
+                    "bestand": 2,
+                    "standort": "Netzwerkschrank Gebäude C",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 18,
+                    "bezeichnung": "TP-Link EAP225",
+                    "bestand": 1,
+                    "standort": "Raum 204 (Informatik)",
+                    "standard": "Wi-Fi 5",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 19,
+                    "bezeichnung": "Ubiquiti UniFi U6-LR",
+                    "bestand": 1,
+                    "standort": "Netzwerkschrank Gebäude C",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 20,
+                    "bezeichnung": "Aruba AP-505",
+                    "bestand": 2,
+                    "standort": "Netzwerkschrank Gebäude A",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 21,
+                    "bezeichnung": "Cisco Meraki MR36",
+                    "bestand": 2,
+                    "standort": "Serverraum",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 22,
+                    "bezeichnung": "TP-Link EAP245",
+                    "bestand": 1,
+                    "standort": "Serverraum",
+                    "standard": "Wi-Fi 5",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 23,
+                    "bezeichnung": "Netgear WAX214",
+                    "bestand": 2,
+                    "standort": "Netzwerkschrank Gebäude B",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 24,
+                    "bezeichnung": "Zyxel NWA110AX",
+                    "bestand": 1,
+                    "standort": "Aula",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 25,
+                    "bezeichnung": "Ruckus R350",
+                    "bestand": 2,
+                    "standort": "Aula",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 26,
+                    "bezeichnung": "Ubiquiti UniFi U6-Pro",
+                    "bestand": 1,
+                    "standort": "Raum 204 (Informatik)",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 27,
+                    "bezeichnung": "TP-Link EAP225",
+                    "bestand": 2,
+                    "standort": "Serverraum",
+                    "standard": "Wi-Fi 5",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 28,
+                    "bezeichnung": "Ubiquiti UniFi U6-LR",
+                    "bestand": 1,
+                    "standort": "Netzwerkschrank Gebäude A",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 29,
+                    "bezeichnung": "Aruba AP-505",
+                    "bestand": 1,
+                    "standort": "Lager Nord",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 30,
+                    "bezeichnung": "Cisco Meraki MR36",
+                    "bestand": 2,
+                    "standort": "Aula",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 31,
+                    "bezeichnung": "TP-Link EAP245",
+                    "bestand": 1,
+                    "standort": "Serverraum",
+                    "standard": "Wi-Fi 5",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 32,
+                    "bezeichnung": "Netgear WAX214",
+                    "bestand": 1,
+                    "standort": "Aula",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 33,
+                    "bezeichnung": "Zyxel NWA110AX",
+                    "bestand": 2,
+                    "standort": "Netzwerkschrank Gebäude A",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 34,
+                    "bezeichnung": "Ruckus R350",
+                    "bestand": 1,
+                    "standort": "Serverraum",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 35,
+                    "bezeichnung": "Ubiquiti UniFi U6-Pro",
+                    "bestand": 1,
+                    "standort": "Netzwerkschrank Gebäude B",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 36,
+                    "bezeichnung": "TP-Link EAP225",
+                    "bestand": 1,
+                    "standort": "Serverraum",
+                    "standard": "Wi-Fi 5",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 37,
+                    "bezeichnung": "Ubiquiti UniFi U6-LR",
+                    "bestand": 1,
+                    "standort": "Netzwerkschrank Gebäude C",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 38,
+                    "bezeichnung": "Aruba AP-505",
+                    "bestand": 1,
+                    "standort": "Serverraum",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 39,
+                    "bezeichnung": "Cisco Meraki MR36",
+                    "bestand": 1,
+                    "standort": "Netzwerkschrank Gebäude B",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 40,
+                    "bezeichnung": "TP-Link EAP245",
+                    "bestand": 2,
+                    "standort": "Verwaltungsflur",
+                    "standard": "Wi-Fi 5",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 41,
+                    "bezeichnung": "Netgear WAX214",
+                    "bestand": 1,
+                    "standort": "Aula",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 42,
+                    "bezeichnung": "Zyxel NWA110AX",
+                    "bestand": 1,
+                    "standort": "Lager Nord",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 43,
+                    "bezeichnung": "Ruckus R350",
+                    "bestand": 1,
+                    "standort": "Netzwerkschrank Gebäude C",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 44,
+                    "bezeichnung": "Ubiquiti UniFi U6-Pro",
+                    "bestand": 1,
+                    "standort": "Raum 204 (Informatik)",
+                    "standard": "Wi-Fi 6",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                },
+                {
+                    "id": 45,
+                    "bezeichnung": "TP-Link EAP225",
+                    "bestand": 1,
+                    "standort": "Netzwerkschrank Gebäude B",
+                    "standard": "Wi-Fi 5",
+                    "frequenz": "2,4\/5 GHz",
+                    "poe": "ja"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+id;bezeichnung;bestand;standort;zoll;aufloesung;anschluss
+1;"Samsung Flip 2";2;"Raum 202";55;3840x2160;HDMI+USB-C
+2;"Promethean ActivPanel 9";2;"Raum 104";65;3840x2160;HDMI+USB-C
+3;"ViewSonic ViewBoard IFP6550";1;Chemieraum;65;3840x2160;HDMI+USB-C
+4;"BenQ Board RP6502";1;"Raum 201";65;3840x2160;HDMI+USB-C
+5;"SMART Board MX265";1;Sporthalle;65;3840x2160;HDMI+USB-C
+6;"Clevertouch Impact Plus";1;"Raum 103";75;3840x2160;HDMI+USB-C
+7;"Legamaster e-Screen";1;Foyer;65;3840x2160;HDMI+USB
+8;"Prowise ProLine";1;Chemieraum;75;3840x2160;HDMI+USB-C
+9;"Samsung Flip 2";1;Aula;55;3840x2160;HDMI+USB-C
+10;"Promethean ActivPanel 9";1;"Raum 101";65;3840x2160;HDMI+USB-C
+11;"ViewSonic ViewBoard IFP6550";1;"Raum 104";65;3840x2160;HDMI+USB-C
+12;"BenQ Board RP6502";1;Foyer;65;3840x2160;HDMI+USB-C
+13;"SMART Board MX265";1;"Raum 202";65;3840x2160;HDMI+USB-C
+14;"Clevertouch Impact Plus";1;Chemieraum;75;3840x2160;HDMI+USB-C
+15;"Legamaster e-Screen";1;"Raum 103";65;3840x2160;HDMI+USB
+16;"Prowise ProLine";1;Konferenzraum;75;3840x2160;HDMI+USB-C
+17;"Samsung Flip 2";1;Konferenzraum;55;3840x2160;HDMI+USB-C
+18;"Promethean ActivPanel 9";1;Medienraum;65;3840x2160;HDMI+USB-C
+19;"ViewSonic ViewBoard IFP6550";1;Sporthalle;65;3840x2160;HDMI+USB-C
+20;"BenQ Board RP6502";2;Aula;65;3840x2160;HDMI+USB-C
+21;"SMART Board MX265";2;"Raum 201";65;3840x2160;HDMI+USB-C
+22;"Clevertouch Impact Plus";2;"Raum 101";75;3840x2160;HDMI+USB-C
+23;"Legamaster e-Screen";1;"Raum 202";65;3840x2160;HDMI+USB
+24;"Prowise ProLine";1;Chemieraum;75;3840x2160;HDMI+USB-C
+25;"Samsung Flip 2";2;"Raum 101";55;3840x2160;HDMI+USB-C
+26;"Promethean ActivPanel 9";1;Chemieraum;65;3840x2160;HDMI+USB-C
+27;"ViewSonic ViewBoard IFP6550";1;"Raum 101";65;3840x2160;HDMI+USB-C
+28;"BenQ Board RP6502";1;Sporthalle;65;3840x2160;HDMI+USB-C
+29;"SMART Board MX265";1;Sporthalle;65;3840x2160;HDMI+USB-C
+30;"Clevertouch Impact Plus";2;"Lager Nord";75;3840x2160;HDMI+USB-C
+31;"Legamaster e-Screen";1;Chemieraum;65;3840x2160;HDMI+USB
+32;"Prowise ProLine";2;"Lager Nord";75;3840x2160;HDMI+USB-C
+33;"Samsung Flip 2";2;Konferenzraum;55;3840x2160;HDMI+USB-C
+34;"Promethean ActivPanel 9";2;Aula;65;3840x2160;HDMI+USB-C
+35;"ViewSonic ViewBoard IFP6550";1;"Raum 201";65;3840x2160;HDMI+USB-C
+36;"BenQ Board RP6502";1;"Raum 104";65;3840x2160;HDMI+USB-C
+37;"SMART Board MX265";2;"Raum 102";65;3840x2160;HDMI+USB-C
+38;"Clevertouch Impact Plus";1;"Raum 101";75;3840x2160;HDMI+USB-C
