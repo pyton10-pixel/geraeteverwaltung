@@ -1,0 +1,3 @@
+id;name;datei;extra1;extra2;extra3
+1;Notebook;notebook.csv;seriennummer;ram;prozessor
+2;Beamer;beamer.csv;aufloesung;anschluss;lichtleistung
