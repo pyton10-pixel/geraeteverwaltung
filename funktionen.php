@@ -336,18 +336,105 @@ function zeigeGeraet($gruppe, $geraet) {
     }
 }
 
-// D2: alle Geräte einer Gruppe anzeigen
+// Eine Tabellenspalte: Text mit Leerzeichen auf $breite Zeichen auffüllen.
+// str_pad zählt Bytes, Umlaute (ä, ö, ü, ß) sind aber 2 Bytes lang.
+// Deshalb pro Umlaut ein Zeichen mehr Breite: strlen (Bytes) - mb_strlen (Buchstaben).
+function spalte($text, $breite) {
+    $text = (string) $text;
+    if ($text === "") {
+        $text = "-";   // leere Werte als - anzeigen
+    }
+    return str_pad($text, $breite + strlen($text) - mb_strlen($text));
+}
+
+// D2: alle Geräte einer Gruppe als Tabelle anzeigen (eine Zeile pro Gerät)
 function zeigeGeraete($gruppe) {
     zeigeUeberschrift("Geräte der Gruppe " . $gruppe["name"]);
     if (count($gruppe["geraete"]) === 0) {
         echo "Diese Gruppe enthält noch keine Geräte.\n";
         return;
     }
-    foreach ($gruppe["geraete"] as $geraet) {
-        zeigeGeraet($gruppe, $geraet);
+
+    // 1. Feste Spalten zusammensetzen
+    $kopf = str_pad("ID", 5)
+          . str_pad("Bezeichnung", 26)
+          . str_pad("Bestand", 9)
+          . str_pad("Standort", 30);
+
+    // 2. Zusatzfelder der Gruppe dynamisch anhängen
+    foreach ($gruppe["felder"] as $feld) {
+        $kopf .= str_pad($feld, 18);
     }
+
+    // 3. Kopf und passende Trennlinie ausgeben
+    echo $kopf . "\n";
+    echo str_repeat("-", strlen($kopf)) . "\n";
+
+    // 4. Eine Zeile pro Gerät, gleiche Breiten wie im Kopf
+    foreach ($gruppe["geraete"] as $geraet) {
+        $zeile = spalte($geraet["id"], 5)
+               . spalte($geraet["bezeichnung"], 26)
+               . spalte($geraet["bestand"], 9)
+               . spalte($geraet["standort"], 30);
+        foreach ($gruppe["felder"] as $feld) {
+            $zeile .= spalte(wertAlsText($geraet[$feld]), 18);
+        }
+        echo $zeile . "\n";
+    }
+
+    echo str_repeat("-", strlen($kopf)) . "\n";
     echo "Datensätze: " . count($gruppe["geraete"])
         . ", Gesamtbestand: " . berechneBestand($gruppe["geraete"]) . "\n";
+}
+
+// Sucht in allen Gruppen nach einem Begriff (Bezeichnung, Standort oder Zusatzfelder)
+function sucheGeraete($gruppen) {
+    zeigeUeberschrift("Geräte suchen");
+    $suchbegriff = eingabe("Suchbegriff (leer = Abbrechen): ");
+    if ($suchbegriff === "") {
+        echo "Suche abgebrochen.\n";
+        return;
+    }
+
+    $gesamtTreffer = 0;
+
+    foreach ($gruppen as $gruppe) {
+        $treffer = [];
+        foreach ($gruppe["geraete"] as $geraet) {
+            // Prüfen, ob Suchbegriff in Bezeichnung oder Standort vorkommt
+            $gefunden = stripos($geraet["bezeichnung"], $suchbegriff) !== false
+                     || stripos($geraet["standort"], $suchbegriff) !== false;
+
+            // Falls noch nicht gefunden: auch alle Zusatzfelder prüfen
+            if ($gefunden === false) {
+                foreach ($gruppe["felder"] as $feld) {
+                    $wert = wertAlsText($geraet[$feld]);
+                    if (stripos($wert, $suchbegriff) !== false) {
+                        $gefunden = true;
+                        break;
+                    }
+                }
+            }
+
+            if ($gefunden) {
+                $treffer[] = $geraet;
+            }
+        }
+
+        // Wenn in dieser Gruppe etwas gefunden wurde, Gruppe mit der Tabellenfunktion ausgeben
+        if (count($treffer) > 0) {
+            $trefferGruppe = $gruppe;
+            $trefferGruppe["geraete"] = $treffer;
+            zeigeGeraete($trefferGruppe);
+            $gesamtTreffer += count($treffer);
+        }
+    }
+
+    if ($gesamtTreffer === 0) {
+        echo "Keine Geräte für '$suchbegriff' gefunden.\n";
+    } else {
+        echo "\nInsgesamt $gesamtTreffer Treffer gefunden.\n";
+    }
 }
 
 // Fragt so lange, bis ein nicht leerer Text eingegeben wird
@@ -358,6 +445,53 @@ function eingabePflicht($frage) {
             return $text;
         }
         echo "Dieses Feld darf nicht leer sein.\n";
+    }
+}
+
+// Wie eingabePflicht, aber eine reine Zahl (z. B. "0" oder "1") wird nicht angenommen.
+// Für Bezeichnung und Standort beim Anlegen eines Geräts.
+function eingabeKeineZahl($frage) {
+    while (true) {
+        $text = eingabePflicht($frage);
+        if (is_numeric($text) === false) {
+            return $text;
+        }
+        echo "Ungültig: Bitte keine reine Zahl eingeben.\n";
+    }
+}
+
+// Fragt einen Standort ab: Auswahl aus vorhandenen Standorten der Gruppe oder Neueingabe
+function eingabeStandort($gruppe) {
+    $standorte = [];
+    foreach ($gruppe["geraete"] as $g) {
+        if (in_array($g["standort"], $standorte, true) === false) {
+            $standorte[] = $g["standort"];
+        }
+    }
+
+    // Falls es noch gar keine Geräte/Standorte in der Gruppe gibt, direkt frei eingeben
+    if (count($standorte) === 0) {
+        return eingabeKeineZahl("Standort: ");
+    }
+
+    sort($standorte);
+
+    echo "Standort wählen:\n";
+    foreach ($standorte as $nr => $ort) {
+        echo ($nr + 1) . " $ort\n";
+    }
+    echo "0 Neuen Standort eingeben\n";
+
+    while (true) {
+        $wahl = eingabe("Auswahl: ");
+        if ($wahl === "0") {
+            return eingabeKeineZahl("Standort: ");
+        }
+        $index = (int)$wahl - 1;
+        if (istGueltigeZahl($wahl) && isset($standorte[$index])) {
+            return $standorte[$index];
+        }
+        echo "Ungültige Auswahl.\n";
     }
 }
 
@@ -381,9 +515,9 @@ function geraetAnlegen($gruppe) {
     zeigeUeberschrift("Gerät hinzufügen: " . $gruppe["name"]);
 
     $geraet = ["id" => naechsteId($gruppe["geraete"])];
-    $geraet["bezeichnung"] = eingabePflicht("Bezeichnung: ");
+    $geraet["bezeichnung"] = eingabeKeineZahl("Bezeichnung: ");
     $geraet["bestand"] = eingabeBestand("Bestand: ", false);
-    $geraet["standort"] = eingabePflicht("Standort: ");
+    $geraet["standort"] = eingabeStandort($gruppe);
 
     // Nur die Zusatzfelder genau dieser Gruppe abfragen
     foreach ($gruppe["felder"] as $feld) {
@@ -395,7 +529,7 @@ function geraetAnlegen($gruppe) {
     return $gruppe;
 }
 
-// D4: Gerät ändern. Leere Eingabe behält den alten Wert, die ID bleibt gleich.
+// D4: Gerät ändern – nur das ausgewählte Feld abfragen
 function geraetBearbeiten($gruppe, $id) {
     $index = findeIndexNachId($gruppe["geraete"], $id);
     if ($index === -1) {
@@ -405,34 +539,60 @@ function geraetBearbeiten($gruppe, $id) {
     $geraet = $gruppe["geraete"][$index];
 
     zeigeGeraet($gruppe, $geraet);
-    echo "Leere Eingabe = alten Wert behalten. Zusatzfeld mit - leeren.\n";
+    echo "\nWas ändern?\n";
+    echo "1 Bezeichnung\n";
+    echo "2 Bestand\n";
+    echo "3 Standort\n";
 
-    $text = eingabe("Bezeichnung [" . $geraet["bezeichnung"] . "]: ");
-    if ($text !== "") {
-        $geraet["bezeichnung"] = $text;
-    }
-
-    $bestand = eingabeBestand("Bestand [" . $geraet["bestand"] . "]: ", true);
-    if ($bestand !== "") {
-        $geraet["bestand"] = $bestand;
-    }
-
-    $text = eingabe("Standort [" . $geraet["standort"] . "]: ");
-    if ($text !== "") {
-        $geraet["standort"] = $text;
-    }
-
+    // Zusatzfelder ab Nummer 4 dynamisch auflisten
+    $nr = 4;
     foreach ($gruppe["felder"] as $feld) {
-        $text = eingabe("$feld [" . wertAlsText($geraet[$feld]) . "]: ");
-        if ($text === "-") {
-            $geraet[$feld] = "";
-        } elseif ($text !== "") {
-            $geraet[$feld] = $text;
-        }
+        echo "$nr $feld\n";
+        $nr++;
+    }
+    echo "0 Abbrechen\n";
+
+    $wahl = eingabe("Auswahl: ");
+
+    switch ($wahl) {
+        case "0":
+            echo "Abgebrochen.\n";
+            return $gruppe;
+
+        case "1":
+            $text = eingabePflicht("Neue Bezeichnung: ");
+            if (is_numeric($text)) {
+                echo "Ungültig: Bezeichnung darf keine reine Zahl sein.\n";
+                return $gruppe;
+            }
+            $geraet["bezeichnung"] = $text;
+            break;
+
+        case "2":
+            $geraet["bestand"] = eingabeBestand("Neuer Bestand: ", false);
+            break;
+
+        case "3":
+            $geraet["standort"] = eingabeStandort($gruppe);
+            break;
+
+        default:
+            // Prüfen, ob eine gültige Nummer für ein Zusatzfeld gewählt wurde (ab 4)
+            $feldIndex = (int)$wahl - 4;
+            if (istGueltigeZahl($wahl) && isset($gruppe["felder"][$feldIndex])) {
+                $feldName = $gruppe["felder"][$feldIndex];
+                $geraet[$feldName] = eingabe("Neuer Wert für $feldName (leer = leeren): ");
+            } else {
+                echo "Ungültige Auswahl.\n";
+                return $gruppe;
+            }
+            break;
     }
 
-    $gruppe["geraete"][$index] = $geraet;   // geänderte Kopie an die gefundene Position zurückschreiben
-    echo "Gerät mit ID $id geändert.\n";
+    // Geändertes Gerät zurückschreiben und zur Kontrolle anzeigen
+    $gruppe["geraete"][$index] = $geraet;
+    echo "\nGerät geändert. Neue Werte:\n";
+    zeigeGeraet($gruppe, $geraet);
     return $gruppe;
 }
 

@@ -64,27 +64,66 @@ function geraeteMenue($gruppe) {
 
         switch (eingabe("Auswahl: ")) {
             case "1":
-                zeigeGeraete($gruppe);
+                $anzeige = $gruppe; // Kopie, damit das Original unverändert bleibt
+                if (count($anzeige["geraete"]) > 1) {
+                    echo "Sortieren nach: 1 ID (Standard), 2 Bestand, 3 Standort\n";
+                    $sort = eingabe("Auswahl (Enter = ID): ");
+
+                    if ($sort === "2" || $sort === "3") {
+                        // Bubblesort: benachbarte Geräte vergleichen und bei Bedarf tauschen
+                        $liste = $anzeige["geraete"];
+                        $anzahl = count($liste);
+
+                        for ($runde = 0; $runde < $anzahl - 1; $runde++) {
+                            for ($i = 0; $i < $anzahl - 1 - $runde; $i++) {
+                                $tauschen = false;
+                                if ($sort === "2" && $liste[$i]["bestand"] > $liste[$i + 1]["bestand"]) {
+                                    $tauschen = true;
+                                }
+                                if ($sort === "3" && strcmp($liste[$i]["standort"], $liste[$i + 1]["standort"]) > 0) {
+                                    $tauschen = true;
+                                }
+
+                                if ($tauschen) {
+                                    $tmp = $liste[$i];
+                                    $liste[$i] = $liste[$i + 1];
+                                    $liste[$i + 1] = $tmp;
+                                }
+                            }
+                        }
+                        $anzeige["geraete"] = $liste;
+                    }
+                }
+                zeigeGeraete($anzeige);
                 break;
             case "2":
                 $gruppe = geraetAnlegen($gruppe);
                 break;
             case "3":
-                zeigeGeraete($gruppe);
-                if (count($gruppe["geraete"]) > 0) {
-                    $id = eingabeId("ID des Geräts: ");
-                    if ($id !== -1) {
-                        $gruppe = geraetBearbeiten($gruppe, $id);
-                    }
+                if (count($gruppe["geraete"]) === 0) {
+                    echo "Diese Gruppe enthält noch keine Geräte.\n";
+                    break;
+                }
+                // Liste nur auf Wunsch – wer die ID kennt, muss nicht durch alle Geräte scrollen
+                if (bestaetigen("Liste anzeigen?")) {
+                    zeigeGeraete($gruppe);
+                }
+                $id = eingabeId("ID des Geräts: ");
+                if ($id !== -1) {
+                    $gruppe = geraetBearbeiten($gruppe, $id);
                 }
                 break;
             case "4":
-                zeigeGeraete($gruppe);
-                if (count($gruppe["geraete"]) > 0) {
-                    $id = eingabeId("ID des Geräts: ");
-                    if ($id !== -1) {
-                        $gruppe = geraetLoeschen($gruppe, $id);
-                    }
+                if (count($gruppe["geraete"]) === 0) {
+                    echo "Diese Gruppe enthält noch keine Geräte.\n";
+                    break;
+                }
+                if (bestaetigen("Liste anzeigen?")) {
+                    zeigeGeraete($gruppe);
+                }
+                $id = eingabeId("ID des Geräts: ");
+                if ($id !== -1) {
+                    $gruppe = geraetLoeschen($gruppe, $id);
                 }
                 break;
             case "0":
@@ -122,6 +161,7 @@ while ($laeuft) {
     echo "3 JSON speichern\n";
     echo "4 JSON neu laden\n";
     echo "5 CSV-Daten importieren\n";
+    echo "6 Geräte suchen\n";
     echo "0 Beenden\n";
 
     switch (eingabe("Auswahl: ")) {
@@ -200,6 +240,11 @@ while ($laeuft) {
                 $geaendert = true;   // Import ist zunächst nur ein ungespeicherter Arbeitsstand
                 echo count($gruppen) . " Gruppe(n) importiert (noch nicht gespeichert).\n";
             }
+            break;
+
+        case "6":
+            // Suche ändert nichts an den Daten, deshalb kein $geaendert
+            sucheGeraete($gruppen);
             break;
 
         case "0":

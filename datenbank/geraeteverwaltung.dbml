@@ -1,0 +1,43 @@
+// Geräteverwaltung – Datenmodell für dbdiagram.io (Export als PDF möglich)
+
+Table gruppen {
+  gruppe_id int [pk, increment]
+  name varchar(100) [not null, unique]
+  datei varchar(100) [not null, unique, note: 'historisches Feld aus der CSV-Version']
+}
+
+Table standorte {
+  standort_id int [pk, increment]
+  bezeichnung varchar(150) [not null, unique]
+}
+
+Table geraete {
+  geraet_id int [pk, increment]
+  gruppe_id int [not null, ref: > gruppen.gruppe_id]
+  standort_id int [not null, ref: > standorte.standort_id]
+  bezeichnung varchar(150) [not null]
+  bestand int [not null, default: 0, note: 'muss >= 0 sein']
+}
+
+Table gruppen_felder {
+  feld_id int [pk, increment]
+  gruppe_id int [not null, ref: > gruppen.gruppe_id]
+  feldname varchar(50) [not null]
+  sortierung tinyint [not null]
+
+  indexes {
+    (gruppe_id, feldname) [unique]
+    (gruppe_id, sortierung) [unique]
+  }
+}
+
+Table geraete_werte {
+  wert_id int [pk, increment]
+  geraet_id int [not null, ref: > geraete.geraet_id]
+  feld_id int [not null, ref: > gruppen_felder.feld_id]
+  wert varchar(255) [not null]
+
+  indexes {
+    (geraet_id, feld_id) [unique]
+  }
+}
